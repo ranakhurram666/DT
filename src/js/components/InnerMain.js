@@ -10,7 +10,7 @@ import { connect } from "react-redux"
   };
 })*/
 
-export default class Main extends React.Component {
+export default class InnerMain extends React.Component {
   constructor() {
     super();
   }
