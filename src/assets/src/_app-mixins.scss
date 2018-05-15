@@ -1,0 +1,46 @@
+@mixin background-opacity($color, $opacity: 0.6) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+@mixin clear() {
+	overflow:hidden;
+	clear:both;
+	float:none;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin listener-tile-style() {
+  border: 1px solid #d5d5d5;
+  background-color: white;
+  h2 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0;
+  }
+  .title{
+    border-bottom: 1px solid #d5d5d5;
+    padding: 10px 15px;
+    i{
+      color: #5c3dee;
+    }
+  }
+  .value {
+    display: block;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 30px;
+  }
+  .range {
+    display: block;
+    padding: 15px 15px;
+    padding-top: 0;
+    color: #00b70e;
+  }
+}
