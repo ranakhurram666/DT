@@ -3,6 +3,10 @@ import { connect } from "react-redux"
 
 import { fetchUser } from "../actions/userActions"
 import { fetchTweets } from "../actions/tweetsActions"
+import NavBar  from "../components/NavBar";
+import Main  from "../components/containers/Main";
+import SideMenu  from "../components/SideMenu";
+import Footer  from "../components/Footer";
 
 @connect((store) => {
   return {
@@ -11,6 +15,7 @@ import { fetchTweets } from "../actions/tweetsActions"
     tweets: store.tweets.tweets,
   };
 })
+
 export default class Layout extends React.Component {
   componentWillMount() {
     this.props.dispatch(fetchUser())
@@ -21,17 +26,13 @@ export default class Layout extends React.Component {
   }
 
   render() {
-    const { user, tweets } = this.props;
-
-    if (!tweets.length) {
-      return <button onClick={this.fetchTweets.bind(this)}>load tweets</button>
+    return (
+      <div>
+      <NavBar />
+      <Main />
+      <SideMenu />
+      <Footer />
+      </div>
+      );
     }
-
-    const mappedTweets = tweets.map(tweet => <li key={tweet.id}>{tweet.text}</li>)
-
-    return <div>
-      <h1>{user.name}</h1>
-      <ul>{mappedTweets}</ul>
-    </div>
   }
-}
