@@ -1,6 +1,6 @@
 import React from "react"
 import { connect } from "react-redux"
-import { XAxis, YAxis, CartesianGrid, Tooltip, Legend, BarChart, Bar } from 'recharts';
+import { XAxis, YAxis, CartesianGrid, Tooltip, Legend, AreaChart, Area, Dot } from 'recharts';
 
 import thousandFormatter from '../../utils'
 /*
@@ -11,7 +11,7 @@ import thousandFormatter from '../../utils'
     tweets: store.tweets.tweets,
   };
 })*/
-export default class SimpleBarChart extends React.Component {
+export default class SimpleAreaChart extends React.Component {
   constructor() {
     super();
   }
@@ -31,7 +31,7 @@ export default class SimpleBarChart extends React.Component {
 
   render() {
     return (
-      <BarChart width={this.props.width} height={300} data={this.props.data}
+      <AreaChart width={this.props.width} height={300} data={this.props.data}
             margin={{top: 5, right: 30, left: 20, bottom: 5}}>
         <XAxis dataKey="name" type="category" />
         <YAxis tickFormatter={this.thousandFormatter} />
@@ -46,8 +46,8 @@ export default class SimpleBarChart extends React.Component {
           }
         }} />
         <Legend />
-        <Bar dataKey="pv" fill="#8884d8" />
-      </BarChart>
+        <Area type="linear" dataKey="pv" stroke="#8884d8" fillOpacity={0.3} fill="#8884d8" dot={true} />
+      </AreaChart>
       );
   }
 }

@@ -8,30 +8,30 @@ import Main  from "../components/containers/Main";
 import SideMenu  from "../components/SideMenu";
 import Footer  from "../components/Footer";
 
-@connect((store) => {
-  return {
-    user: store.user.user,
-    userFetched: store.user.fetched,
-    tweets: store.tweets.tweets,
-  };
-})
+// @connect((store) => {
+//   return {
+//     user: store.user.user,
+//     userFetched: store.user.fetched,
+//     tweets: store.tweets.tweets,
+//   };
+// })
 
 export default class Layout extends React.Component {
   componentWillMount() {
-    this.props.dispatch(fetchUser())
+    //this.props.dispatch(fetchUser())
   }
 
   fetchTweets() {
-    this.props.dispatch(fetchTweets())
+    //this.props.dispatch(fetchTweets())
   }
 
   render() {
     return (
       <div>
-      <NavBar />
-      <Main />
-      <SideMenu />
-      <Footer />
+        <NavBar />
+        <Main />
+        <SideMenu />
+        <Footer />
       </div>
       );
     }

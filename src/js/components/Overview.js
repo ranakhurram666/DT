@@ -1,8 +1,13 @@
 import React from "react"
 import { connect } from "react-redux"
 import SplitedCard from "./cards/SplitedCard";
+import NonBorderCard from './cards/NonBorderCard';
 import NonSplitedCard from './cards/NonSplitedCard';
 import SimpleBarChart from './graphs/SimpleBarChart';
+import SimpleAreaChart from './graphs/SimpleAreaChart';
+
+import TopListing from "./TopListing";
+import TabSection from "./TabSection";
 
 /*
 @connect((store) => {
@@ -27,8 +32,6 @@ export default class Overview extends React.Component {
             {name: 'Page G', uv: 3490, pv: 4300, amt: 7000},
             {name: 'Page H', uv: 3697, pv: 4500, amt: 8000},
         ]
-
-
     }
   }
 
@@ -38,44 +41,76 @@ export default class Overview extends React.Component {
 
   render() {
     return (
-      <main id="main">
-       <div class="main-wrapper">
-        <div class="container-fluid">
-        <div class="main-content">
-            <div class="heading">
-                <h1>AMN Overview</h1>
-            </div>
-            <div class="row">
-              <div class="main-content">
-                  <SplitedCard colClass={'col-md-3'} cardTitle={'Total Listeners'}
-                               cardValue={'599,404'} rise={true} percentValue={'10.6'}
-                               icon={'fas fa-user-circle'} />
-                  <SplitedCard colClass={'col-md-3'} cardTitle={'Minutes per Listener'}
-                               cardValue={'9m, 23sec'} rise={false} percentValue={'10.4'}
-                               icon={'fas fa-user-circle'} />
-                  <SplitedCard colClass={'col-md-3'} cardTitle={'Total Content Consumed'}
-                               cardValue={'22,332,860m'} rise={true} percentValue={'10.4'}
-                               icon={'fas fa-user-circle'} />
-                  <SplitedCard colClass={'col-md-3'} cardTitle={'Minutes per Listener'}
-                               cardValue={'43,92,554m'} rise={true} percentValue={'10.4'}
-                               icon={'fas fa-user-circle'} />
-                </div>
-              </div>
-            <div className="row">
-                    <NonSplitedCard cardTitle={'Total Listeners'} cardValue={'599,404'}
-                                    rise={true} percentValue={'10.6'}/>
+      <div>
+      <section class="content-white">
+      <SplitedCard colClass={'col-md-3'}
+      cardTitle={'Total Listeners'}
+      cardValue={'599,404'}
+      rise={true}
+      percentValue={'10.6'}
+      icon={'fas fa-user-circle'}
+      />
+
+      <SplitedCard
+      colClass={'col-md-3'}
+      cardTitle={'Minutes per Listener'}
+      cardValue={'9m, 23sec'}
+      rise={false}
+      percentValue={'10.4'}
+      icon={'fas fa-user-circle'}
+      />
+
+      <SplitedCard
+      colClass={'col-md-3'}
+      cardTitle={'Total Content Consumed'}
+      cardValue={'22,332,860m'}
+      rise={true}
+      percentValue={'10.4'}
+      icon={'fas fa-user-circle'}
+      />
+
+      <SplitedCard
+      colClass={'col-md-3'}
+      cardTitle={'Minutes per Listener'}
+      cardValue={'43,92,554m'}
+      rise={true}
+      percentValue={'10.4'}
+      icon={'fas fa-user-circle'}
+      />
+      <div class="clearfix"></div>
+          <div className="row">
+            <NonBorderCard cardTitle={'Total Listeners'} cardValue={'599,404'}
+                            rise={true} percentValue={'10.6'}/>
+            <div className="col-md-3"></div>
+            <NonSplitedCard cardTitle={'Total Viewers'} cardValue={'599,404'}/>
+            <NonSplitedCard cardTitle={'Total Publishers'} cardValue={'599,404'}/>
             </div>
             <div className="row">
                 <div className="col-sm-12">
-                <div className="total-listener-graph">
-                    <SimpleBarChart data={this.state.listenersGraphData}/>
+                    <div className="total-listener-graph">
+                        <SimpleBarChart data={this.state.listenersGraphData} width={700}/>
+                    </div>
                 </div>
             </div>
-            </div>
+
+        <div class="clearfix">
+          <div class="col-md-5">
+            <SimpleAreaChart data={this.state.listenersGraphData} width={500} />
+          </div>
+          <div class="col-md-5">
+            <SimpleBarChart data={this.state.listenersGraphData} width={500}/>
+          </div>
         </div>
-        </div>
-       </div>
-      </main>
+</section>
+        <section class="content-white clearfix">
+          <TopListing title={"TOTAL NUMBER OF PUBLISHERS"} />
+        </section>
+
+                <section class="content-white clearfix">
+          <TabSection />
+        </section>
+
+      </div>
       );
   }
 }
