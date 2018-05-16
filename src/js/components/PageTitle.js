@@ -1,6 +1,5 @@
 import React from "react"
 import { connect } from "react-redux"
-import InnerMain  from "../InnerMain";
 
 /*
 @connect((store) => {
@@ -11,7 +10,7 @@ import InnerMain  from "../InnerMain";
   };
 })*/
 
-export default class Main extends React.Component {
+export default class PageTitle extends React.Component {
   constructor() {
     super();
   }
@@ -22,13 +21,9 @@ export default class Main extends React.Component {
   
   render() {
     return (
-      <main id="main">
-       <div class="main-wrapper">
-        <div class="container-fluid">
-<InnerMain />
-        </div>
-       </div>
-      </main>
+     <div class="heading">
+        <h1>AMN Overview</h1>
+      </div>
       );
   }
 }

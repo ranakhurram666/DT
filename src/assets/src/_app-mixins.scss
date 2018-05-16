@@ -1,3 +1,6 @@
+@import "app-variables";
+@import "bootstrap/mixins";
+
 @mixin background-opacity($color, $opacity: 0.6) {
     background: $color; /* The Fallback */
     background: rgba($color, $opacity);

@@ -1,15 +1,17 @@
 import React from "react"
 import { connect } from "react-redux"
 
-import InnerMain  from "../components/InnerMain";
+import InnerMain  from "../InnerMain";
+import PageTitle  from "../PageTitle";
+
 
 /*
 @connect((store) => {
-  return {
-    user: store.user.user,
-    userFetched: store.user.fetched,
-    tweets: store.tweets.tweets,
-  };
+return {
+user: store.user.user,
+userFetched: store.user.fetched,
+tweets: store.tweets.tweets,
+};
 })*/
 
 export default class Main extends React.Component {
@@ -17,19 +19,20 @@ export default class Main extends React.Component {
     super();
   }
   componentWillMount() {
-    //this.props.dispatch(fetchUser())
-  }
+//this.props.dispatch(fetchUser())
+}
 
-  
-  render() {
-    return (
-      <main id="main">
-       <div class="main-wrapper">
-        <div class="container-fluid">
-<InnerMain />
-        </div>
-       </div>
-      </main>
-      );
+
+render() {
+  return (
+    <main id="main">
+    <div class="container-fluid">
+    <div class="main-wrapper">
+    <PageTitle />
+    <InnerMain />
+    </div>
+    </div>
+    </main>
+    );
   }
 }
