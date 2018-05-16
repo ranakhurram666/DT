@@ -22,7 +22,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <footer id="footer">
-      <div class="footer-wrapper">   <p>All rights reserved with @copy; Telenor.</p>                                             
+      <div class="footer-wrapper">   <p>All rights reserved with &copy; Telenor.</p>                                             
       </div>
       </footer>
       );

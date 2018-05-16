@@ -16,20 +16,22 @@ export default class Main extends React.Component {
     super();
   }
   componentWillMount() {
-//this.props.dispatch(fetchUser())
+  //this.props.dispatch(fetchUser())
+  //document.title = "t"
 }
 
-
-  
-  render() {
-    return (
-      <main id="main">
-       <div class="main-wrapper">
+render() {
+  return (
+    <main id="main">
+      <div class="main-wrapper">
         <div class="container-fluid">
-          <Overview />
+          <PageTitle />
+          <div class="main-content">
+            <Overview />
+          </div>
         </div>
-       </div>
-      </main>
-      );
-  }
+      </div>
+    </main>
+    );
+}
 }

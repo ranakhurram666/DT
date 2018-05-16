@@ -20,8 +20,7 @@ export default class InnerMain extends React.Component {
   
   render() {
     return (
-      <div class="main-content">
-        <div class="row">
+        
           <div class="main-content">
           <div class="col-md-3">
           <div class="listener-tile">
@@ -65,8 +64,6 @@ export default class InnerMain extends React.Component {
               </div>
             </div>
           </div>
-        </div>
-      </div>
       );
   }
 }

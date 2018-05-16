@@ -16,6 +16,7 @@ export default class PageTitle extends React.Component {
   }
   componentWillMount() {
     //this.props.dispatch(fetchUser())
+    
   }
   
   render() {
