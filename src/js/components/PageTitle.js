@@ -17,13 +17,12 @@ export default class PageTitle extends React.Component {
   componentWillMount() {
     //this.props.dispatch(fetchUser())
   }
-
   
   render() {
     return (
      <div class="heading">
         <h1>AMN Overview</h1>
       </div>
-      );
+    );
   }
 }
