@@ -29,7 +29,7 @@ export default class Layout extends React.Component {
     return (
       <div>
         <NavBar />
-        <Main />
+          {this.props.children}
         <SideMenu />
         <Footer />
       </div>

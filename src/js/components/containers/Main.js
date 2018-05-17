@@ -27,7 +27,7 @@ render() {
         <div class="container-fluid">
           <PageTitle />
           <div class="main-content">
-            <Overview />
+              {this.props.children}
           </div>
         </div>
       </div>
