@@ -33,20 +33,17 @@ export default class TabSection extends React.Component {
               <Tab>Peek Hours</Tab>
             </TabList>
 
-            <TabPanel>
-              <h2>Popular Days</h2>
+            <TabPanel className="text-center">
               <div class="graph-container">
                 <img class="img-responsive" src="assets/images/graph1.png" alt="graph img"/>
               </div>
             </TabPanel>
-            <TabPanel>
-              <h2>Days &amp; Hours</h2>
+            <TabPanel className="text-center">
                <div class="graph-container">
                 <img class="img-responsive" src="assets/images/graph2.png" alt="graph img"/>
               </div>
             </TabPanel>
-            <TabPanel>
-              <h2>Peek Hours</h2>
+            <TabPanel className="text-center">
                <div class="graph-container">
                 <img class="img-responsive" src="assets/images/graph3.png" alt="graph img"/>
               </div>
