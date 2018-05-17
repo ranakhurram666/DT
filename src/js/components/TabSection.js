@@ -18,10 +18,7 @@ export default class TabSection extends React.Component {
   }
   componentWillMount() {
     //this.props.dispatch(fetchUser())
-    
   }
-
-
   
   render() {
     return (

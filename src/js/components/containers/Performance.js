@@ -1,7 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Performance from './Performance';
 
 import PageTitle  from "../PageTitle";
 import Overview  from "../Overview";
@@ -13,7 +11,7 @@ userFetched: store.user.fetched,
 tweets: store.tweets.tweets,
 };
 })*/
-export default class Main extends React.Component {
+export default class Performance extends React.Component {
   constructor() {
     super();
   }
