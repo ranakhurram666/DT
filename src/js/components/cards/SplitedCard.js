@@ -18,7 +18,7 @@ export default class SplitedCard extends React.Component {
 
   getRiseAndFall(rise, value) {
       if (rise) {
-        return <span className="range"><i className="fas fa-arrow-up"></i> {value}%</span>;
+        return <span className="range sucess"><i className="fas fa-arrow-up"></i> {value}%</span>;
       } else {
         return <span className="range danger"><i className="fas fa-arrow-down"></i> {value}%</span>;
       }

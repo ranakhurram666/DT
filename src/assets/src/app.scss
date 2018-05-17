@@ -46,7 +46,7 @@
 }
 
 .content-white { 
-    padding-top: 20px;
+  padding: 30px 15px;
   background-color: white;
   margin-bottom: 40px;
   border: 1px solid #e8e9eb;
@@ -54,6 +54,32 @@
 
 .listener-tile {
   @include listener-tile-style();
+  h2 {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin: 0;
+  }
+  
+  .title {
+    border-bottom: 1px solid #d5d5d5;
+    padding: 10px 15px;
+    i { color: #5c3dee; }
+  }
+  .value {
+    display: block;
+    padding: 10px 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 30px;
+  }
+}
+.range {
+  display: block;
+  padding: 15px 15px;
+  padding-top: 0;
+  &.sucess { color: $brand-success; }
+  &.danger { color: $brand-danger; }
 }
 
 .la-anim-1 {
@@ -575,5 +601,65 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
   .title {
     h2 {
       i { margin-right: 5px; }
+    }
+  }
+
+  .stat-section {
+    padding: 45px 15px 25px;
+
+    .stats-wrapper {
+      margin-right: 15px;
+      padding: 6px 12px;
+      display: inline-block;
+      border: 1px solid transparent;
+      font-family: 'Open Sans', sans-serif;
+      &.bordered { 
+        border: 1px solid #d5d5d5; 
+
+        .value { color: #636363; }
+      }
+
+      .range {
+        display: inline-block;
+        padding: 0;
+      }
+
+      .value {
+        font-weight: bold;
+        color: #000000;
+        font-size: 30px;
+        display: inline-block;
+      }
+
+      .title {
+        text-transform: uppercase;
+        font-size: 14px;
+        display: block;
+      }
+
+      &:last-child { margin-right: 0;}
+    }
+  }
+  .tabs-area {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .nav {
+      &.nav-pills {
+        li { 
+          margin: 0 30px;
+          padding: 10px 20px;
+          float: none;
+          display: inline-block;
+          font-weight: bold;
+          font-size: 20px;
+          text-transform: uppercase;
+          border-bottom: 3px solid transparent;
+          &.react-tabs__tab--selected {
+            background: #f5f3fe;
+            border-bottom: 3px solid $brand-primary;
+          }
+        }
+      }
     }
   }

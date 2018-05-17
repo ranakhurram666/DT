@@ -18,7 +18,7 @@ export default class NonBorderCard extends React.Component {
 
   getRiseAndFall(rise, value) {
       if (rise) {
-        return <span className="range"><i className="fas fa-arrow-up"></i> {value}%</span>;
+        return <span className="range sucess"><i className="fas fa-arrow-up"></i> {value}%</span>;
       } else {
         return <span className="range danger"><i className="fas fa-arrow-down"></i> {value}%</span>;
       }
@@ -26,11 +26,9 @@ export default class NonBorderCard extends React.Component {
 
   render() {
         return (
-        <div className="col-md-3">
-        <div className="">
+        <div className="stats-wrapper">
             <span className="value">{this.props.cardValue}</span> {this.getRiseAndFall(this.props.rise, this.props.percentValue)}
             <span className="title">{this.props.cardTitle}</span>
-        </div>
         </div>
         );
   }

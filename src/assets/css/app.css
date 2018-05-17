@@ -3036,7 +3036,7 @@ readers do not read off random characters that represent icons */
     width: 100%; }
 
 .content-white {
-  padding-top: 20px;
+  padding: 30px 15px;
   background-color: white;
   margin-bottom: 40px;
   border: 1px solid #e8e9eb; }
@@ -3060,11 +3060,15 @@ readers do not read off random characters that represent icons */
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 30px; }
-  .listener-tile .range {
-    display: block;
-    padding: 15px 15px;
-    padding-top: 0;
-    color: #00b70e; }
+
+.range {
+  display: block;
+  padding: 15px 15px;
+  padding-top: 0; }
+  .range.sucess {
+    color: #5cb85c; }
+  .range.danger {
+    color: #d9534f; }
 
 .la-anim-1 {
   position: fixed;
@@ -3457,3 +3461,46 @@ hr.light-grey-hr {
 
 .title h2 i {
   margin-right: 5px; }
+
+.stat-section {
+  padding: 45px 15px 25px; }
+  .stat-section .stats-wrapper {
+    margin-right: 15px;
+    padding: 6px 12px;
+    display: inline-block;
+    border: 1px solid transparent;
+    font-family: 'Open Sans', sans-serif; }
+    .stat-section .stats-wrapper.bordered {
+      border: 1px solid #d5d5d5; }
+      .stat-section .stats-wrapper.bordered .value {
+        color: #636363; }
+    .stat-section .stats-wrapper .range {
+      display: inline-block;
+      padding: 0; }
+    .stat-section .stats-wrapper .value {
+      font-weight: bold;
+      color: #000000;
+      font-size: 30px;
+      display: inline-block; }
+    .stat-section .stats-wrapper .title {
+      text-transform: uppercase;
+      font-size: 14px;
+      display: block; }
+    .stat-section .stats-wrapper:last-child {
+      margin-right: 0; }
+
+.tabs-area {
+  padding-left: 15px;
+  padding-right: 15px; }
+  .tabs-area .nav.nav-pills li {
+    margin: 0 30px;
+    padding: 10px 20px;
+    float: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent; }
+    .tabs-area .nav.nav-pills li.react-tabs__tab--selected {
+      background: #f5f3fe;
+      border-bottom: 3px solid #0247fc; }

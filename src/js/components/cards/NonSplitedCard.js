@@ -18,11 +18,9 @@ export default class NonSplitedCard extends React.Component {
 
   render() {
         return (
-        <div className="col-md-3">
-        <div className="listener-tile">
+        <div className="stats-wrapper bordered">
             <span className="value">{this.props.cardValue}</span>
             <span className="title">{this.props.cardTitle}</span>
-        </div>
         </div>
         );
   }

@@ -78,20 +78,22 @@ export default class Overview extends React.Component {
       icon={'fas fa-user-circle'}
       />
       <div class="clearfix"></div>
-          <div className="row">
+          <div className="stat-section clearfix">
+
             <NonBorderCard cardTitle={'Total Listeners'} cardValue={'599,404'}
                             rise={true} percentValue={'10.6'}/>
-            <div className="col-md-3"></div>
+            <div class="pull-right">                
             <NonSplitedCard cardTitle={'Total Viewers'} cardValue={'599,404'}/>
             <NonSplitedCard cardTitle={'Total Publishers'} cardValue={'599,404'}/>
             </div>
-            <div className="row">
+            </div>
+            <div className="clearfix"></div>
+
                 <div className="col-sm-12">
                     <div className="total-listener-graph">
                         <SimpleBarChart data={this.state.listenersGraphData} width={700}/>
                     </div>
                 </div>
-            </div>
 
         <div class="clearfix">
           <div class="col-md-5">
