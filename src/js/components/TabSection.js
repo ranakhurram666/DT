@@ -18,37 +18,31 @@ export default class TabSection extends React.Component {
   }
   componentWillMount() {
     //this.props.dispatch(fetchUser())
-    
   }
-
-
   
   render() {
     return (
-        <div>
+        <div className="tabs-area">
           <Tabs>
-            <TabList className="text-center">
+            <TabList className="nav nav-pills text-center">
               <Tab>Popular Days</Tab>
               <Tab>Days &amp; Hours</Tab>
               <Tab>Peek Hours</Tab>
             </TabList>
 
-            <TabPanel>
-              <h2>Popular Days</h2>
+            <TabPanel className="text-center">
               <div class="graph-container">
                 <img class="img-responsive" src="assets/images/graph1.png" alt="graph img"/>
               </div>
             </TabPanel>
-            <TabPanel>
-              <h2>Days &amp; Hours</h2>
+            <TabPanel className="text-center">
                <div class="graph-container">
-                <img class="img-responsive" src="assets/images/graph1.png" alt="graph img"/>
+                <img class="img-responsive" src="assets/images/graph2.png" alt="graph img"/>
               </div>
             </TabPanel>
-            <TabPanel>
-              <h2>Peek Hours</h2>
+            <TabPanel className="text-center">
                <div class="graph-container">
-                <img class="img-responsive" src="assets/images/graph1.png" alt="graph img"/>
+                <img class="img-responsive" src="assets/images/graph3.png" alt="graph img"/>
               </div>
             </TabPanel>
           </Tabs>

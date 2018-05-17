@@ -105,10 +105,11 @@ export default class Overview extends React.Component {
       icon={'fas fa-user-circle'}
       />
       <div class="clearfix"></div>
-          <div className="row">
+          <div className="stat-section clearfix">
+
             <NonBorderCard cardTitle={'Total Listeners'} cardValue={'599,404'}
                             rise={true} percentValue={'10.6'}/>
-            <div className="col-md-3"></div>
+        <div className="pull-right">
             <div onClick={this.listenerChartHandler.bind(this, 'new')}>
                 <NonSplitedCard cardTitle={'New Listeners'} cardValue={'599,404'} fill={this.state.newCardColor}/>
             </div>
@@ -116,6 +117,7 @@ export default class Overview extends React.Component {
                 <NonSplitedCard cardTitle={'Returning Listeners'} cardValue={'599,404'}
                                 fill={this.state.returnCardColor}/>
             </div>
+        </div>
           </div>
             <div className="row">
                 <div className="col-sm-12">

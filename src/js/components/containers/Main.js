@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import Performance from './Performance';
 
 import PageTitle  from "../PageTitle";
 import Overview  from "../Overview";
@@ -18,7 +19,7 @@ export default class Main extends React.Component {
   componentWillMount() {
   //this.props.dispatch(fetchUser())
   //document.title = "t"
-}
+  }
 
 render() {
   return (

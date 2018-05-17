@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-
 /*
 @connect((store) => {
 return {
@@ -20,7 +19,9 @@ export default class Performance extends React.Component {
 
 render() {
   return (
+
     <div>Hi from performance</div>
+
     );
 }
 }
