@@ -157,7 +157,7 @@ export default class Overview extends React.Component {
             </section>
 
             <section class="content-white clearfix">
-              <TabSection />
+              <TabSection  />
             </section>
           </div>
     );

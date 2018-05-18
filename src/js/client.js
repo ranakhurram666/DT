@@ -7,6 +7,7 @@ import Layout from "./components/Layout"
 import Overview from './components/Overview';
 import Main from './components/containers/Main';
 import Performance from './components/containers/Performance';
+import Revenue from './components/containers/Revenue';
 import store from "./store"
 
 const app = document.getElementById('app')
@@ -22,6 +23,7 @@ ReactDOM.render(
       <IndexRoute component={Overview}>
       </IndexRoute>
       <Route path="performance" component={Performance}></Route>
+      <Route path="revenue" component={Revenue}></Route>
     </Route>
     {/*<Route path="archives" name="archives" component={Archives}></Route>*/}
     </Route>

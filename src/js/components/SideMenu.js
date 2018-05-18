@@ -78,7 +78,7 @@ export default class SideMenu extends React.Component {
             </ul>
           </li>
           <li>
-            <a href="#" data-toggle="collapse" data-target="#revenue_dr"><div class="pull-left"><i class="fas fa-dollar-sign"></i><span class="right-nav-text"> Revenue </span></div><div class="clearfix"></div></a>
+            <a href="#" data-toggle="collapse" data-target="#revenue_dr"><div class="pull-left"><i class="fas fa-dollar-sign"></i><span class="right-nav-text"><Link to="revenue">Revenue</Link></span></div><div class="clearfix"></div></a>
             <ul id="revenue_dr" class="collapse collapse-level-1 list-unstyled">
               <li>
                 <a href="chats.html">chats</a>
