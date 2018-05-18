@@ -17,11 +17,11 @@ export default class NonSplitedCard extends React.Component {
   }
 
   render() {
-        return (
-        <div className="stats-wrapper bordered">
-            <span className="value">{this.props.cardValue}</span>
-            <span className="title">{this.props.cardTitle}</span>
-        </div>
-        );
+    return (
+      <div className="stats-wrapper bordered">
+        <span className="value">{this.props.cardValue}</span>
+        <span className="title">{this.props.cardTitle}</span>
+      </div>
+    );
   }
 }

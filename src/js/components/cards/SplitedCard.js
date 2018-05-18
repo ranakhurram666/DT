@@ -25,16 +25,16 @@ export default class SplitedCard extends React.Component {
   }
 
   render() {
-        return (
-        <div className={this.props.colClass}>
-        <div className="listener-tile">
-            <div className="title">
-                <h2><i className={this.props.icon}></i>{this.props.cardTitle}</h2>
-            </div>
-            <span className="value">{this.props.cardValue}</span>
-            {this.getRiseAndFall(this.props.rise, this.props.percentValue)}
-        </div>
-        </div>
-        );
+    return (
+    <div className={this.props.colClass}>
+      <div className="listener-tile">
+          <div className="title">
+              <h2><i className={this.props.icon}></i>{this.props.cardTitle}</h2>
+          </div>
+          <span className="value">{this.props.cardValue}</span>
+          {this.getRiseAndFall(this.props.rise, this.props.percentValue)}
+      </div>
+    </div>
+    );
   }
 }

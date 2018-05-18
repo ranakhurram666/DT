@@ -78,41 +78,40 @@ export default class Overview extends React.Component {
       icon={'fas fa-user-circle'}
       />
       <div class="clearfix"></div>
-          <div className="stat-section clearfix">
+            <div className="stat-section clearfix">
 
-            <NonBorderCard cardTitle={'Total Listeners'} cardValue={'599,404'}
-                            rise={true} percentValue={'10.6'}/>
-            <div class="pull-right">                
-            <NonSplitedCard cardTitle={'Total Viewers'} cardValue={'599,404'}/>
-            <NonSplitedCard cardTitle={'Total Publishers'} cardValue={'599,404'}/>
+              <NonBorderCard cardTitle={'Total Listeners'} cardValue={'599,404'} rise={true} percentValue={'10.6'}/>
+              <div class="pull-right">                
+                <NonSplitedCard cardTitle={'Total Viewers'} cardValue={'599,404'}/>
+                <NonSplitedCard cardTitle={'Total Publishers'} cardValue={'599,404'}/>
+              </div>
             </div>
-            </div>
+
             <div className="clearfix"></div>
 
-                <div className="col-sm-12">
-                    <div className="total-listener-graph">
-                        <SimpleBarChart data={this.state.listenersGraphData} width={700}/>
-                    </div>
-                </div>
+            <div className="col-sm-12">
+              <div className="total-listener-graph">
+                <SimpleBarChart data={this.state.listenersGraphData} width={700}/>
+              </div>
+            </div>
 
-        <div class="clearfix">
-          <div class="col-md-5">
-            <SimpleAreaChart data={this.state.listenersGraphData} width={500} />
+          <div class="clearfix">
+            <div class="col-md-5">
+              <SimpleAreaChart data={this.state.listenersGraphData} width={500} />
+            </div>
+            <div class="col-md-5">
+              <SimpleBarChart data={this.state.listenersGraphData} width={500}/>
+            </div>
           </div>
-          <div class="col-md-5">
-            <SimpleBarChart data={this.state.listenersGraphData} width={500}/>
-          </div>
-        </div>
-</section>
+        </section>
         <section class="content-white clearfix">
           <TopListing title={"TOTAL NUMBER OF PUBLISHERS"} />
         </section>
 
-                <section class="content-white clearfix">
+        <section class="content-white clearfix">
           <TabSection />
         </section>
-
       </div>
-      );
+    );
   }
 }
