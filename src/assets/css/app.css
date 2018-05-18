@@ -3060,6 +3060,25 @@ readers do not read off random characters that represent icons */
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 30px; }
+  .listener-tile.performance-card .title h2 {
+    padding-right: 20px;
+    position: relative;
+    font-weight: bold; }
+    .listener-tile.performance-card .title h2 i {
+      position: absolute;
+      right: 0;
+      top: 2px;
+      color: #b2b2b2;
+      z-index: 11; }
+  .listener-tile.performance-card .value,
+  .listener-tile.performance-card .range {
+    display: inline-block; }
+
+.tagline,
+.performance-graph {
+  text-align: center;
+  padding: 15px;
+  display: block; }
 
 .range {
   display: block;
@@ -3285,8 +3304,7 @@ hr.light-grey-hr {
     position: relative;
     border-radius: 0;
     margin: 0;
-    overflow-y: auto;
-    backface-visibility: hidden; }
+    overflow-y: auto; }
     .fixed-sidebar-left .side-nav li {
       width: 200px;
       padding: 3px 12px; }
@@ -3452,12 +3470,13 @@ hr.light-grey-hr {
       text-decoration: none; }
   .section-item .section-list:last-child {
     border-style: none; }
-  .section-item .order {
-    background-color: #eeebfd;
-    padding: 10px;
-    border-radius: 100%;
-    color: #6b50ef;
-    margin-right: 10px; }
+
+.order {
+  background-color: #eeebfd;
+  padding: 10px;
+  border-radius: 100%;
+  color: #6b50ef;
+  margin-right: 10px; }
 
 .title h2 i {
   margin-right: 5px; }
@@ -3506,3 +3525,24 @@ hr.light-grey-hr {
     .tabs-area .nav.nav-pills li.react-tabs__tab--selected {
       background: #f5f3fe;
       border-bottom: 3px solid #0247fc; }
+
+.tablular-data-wrapper {
+  padding: 30px 0; }
+  .tablular-data-wrapper .range {
+    padding: 0;
+    display: inline-block; }
+  .tablular-data-wrapper .order {
+    padding: 5px 10px; }
+  .tablular-data-wrapper .table {
+    margin: 0; }
+
+.more-categories a {
+  padding: 8px;
+  background: #eeebfd;
+  text-align: center;
+  display: block;
+  font-size: 14px; }
+  .more-categories a i {
+    margin-left: 10px; }
+  .more-categories a:hover {
+    text-decoration: none; }

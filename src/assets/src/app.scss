@@ -73,7 +73,32 @@
     color: black;
     font-size: 30px;
   }
+  &.performance-card {
+    .title h2 { 
+      padding-right: 20px;
+      position: relative;
+      font-weight: bold;
+      i {
+        position: absolute;
+        right: 0;
+        top: 2px;
+        color: #b2b2b2;
+        z-index: 11;
+      }
+    }
+    .value,
+    .range { display: inline-block; }
+
+  }
 }
+
+.tagline,
+.performance-graph {
+  text-align: center;
+  padding: 15px;
+  display: block;
+}
+
 .range {
   display: block;
   padding: 15px 15px;
@@ -343,7 +368,7 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
     border-radius: 0;
     margin: 0;
     overflow-y: auto;
-    backface-visibility: hidden;
+    //backface-visibility: hidden;
 
     li {
       width: 200px;
@@ -589,13 +614,14 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
         border-style: none;
       }
     }
-    .order {
-      background-color: #eeebfd;
-      padding: 10px;
-      border-radius: 100%;
-      color: #6b50ef;
-      margin-right: 10px;
-    }
+  }
+
+  .order {
+    background-color: #eeebfd;
+    padding: 10px;
+    border-radius: 100%;
+    color: #6b50ef;
+    margin-right: 10px;
   }
 
   .title {
@@ -664,5 +690,32 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
           }
         }
       }
+    }
+  }
+
+  .tablular-data-wrapper {
+    padding: 30px 0;
+
+    .range { 
+      padding: 0;
+      display: inline-block;
+    }
+    
+    .order { padding: 5px 10px; }
+    
+    .table { margin: 0; }
+  }
+
+  .more-categories {
+    a {
+      padding: 8px;
+      background: #eeebfd;
+      text-align: center;
+      display: block;
+      font-size: 14px;
+
+      i { margin-left: 10px; }
+
+      &:hover { text-decoration: none; }
     }
   }
