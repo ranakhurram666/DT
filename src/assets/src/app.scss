@@ -73,7 +73,32 @@
     color: black;
     font-size: 30px;
   }
+  &.performance-card {
+    .title h2 { 
+      padding-right: 20px;
+      position: relative;
+      font-weight: bold;
+      i {
+        position: absolute;
+        right: 0;
+        top: 2px;
+        color: #b2b2b2;
+        z-index: 11;
+      }
+    }
+    .value,
+    .range { display: inline-block; }
+
+  }
 }
+
+.tagline,
+.performance-graph {
+  text-align: center;
+  padding: 15px;
+  display: block;
+}
+ 
 .range {
   display: block;
   padding: 15px 15px;
