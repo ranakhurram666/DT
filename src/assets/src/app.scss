@@ -368,7 +368,7 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
     border-radius: 0;
     margin: 0;
     overflow-y: auto;
-    backface-visibility: hidden;
+    //backface-visibility: hidden;
 
     li {
       width: 200px;
@@ -615,7 +615,7 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
       }
     }
   }
-  
+
   .order {
     background-color: #eeebfd;
     padding: 10px;
@@ -695,8 +695,27 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
   .tablular-data-wrapper {
     padding: 30px 0;
+
     .range { 
       padding: 0;
       display: inline-block;
+    }
+    
+    .order { padding: 5px 10px; }
+    
+    .table { margin: 0; }
+  }
+
+  .more-categories {
+    a {
+      padding: 8px;
+      background: #eeebfd;
+      text-align: center;
+      display: block;
+      font-size: 14px;
+
+      i { margin-left: 10px; }
+
+      &:hover { text-decoration: none; }
     }
   }

@@ -3304,8 +3304,7 @@ hr.light-grey-hr {
     position: relative;
     border-radius: 0;
     margin: 0;
-    overflow-y: auto;
-    backface-visibility: hidden; }
+    overflow-y: auto; }
     .fixed-sidebar-left .side-nav li {
       width: 200px;
       padding: 3px 12px; }
@@ -3532,3 +3531,18 @@ hr.light-grey-hr {
   .tablular-data-wrapper .range {
     padding: 0;
     display: inline-block; }
+  .tablular-data-wrapper .order {
+    padding: 5px 10px; }
+  .tablular-data-wrapper .table {
+    margin: 0; }
+
+.more-categories a {
+  padding: 8px;
+  background: #eeebfd;
+  text-align: center;
+  display: block;
+  font-size: 14px; }
+  .more-categories a i {
+    margin-left: 10px; }
+  .more-categories a:hover {
+    text-decoration: none; }
