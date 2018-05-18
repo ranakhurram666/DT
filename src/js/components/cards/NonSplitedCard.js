@@ -18,10 +18,10 @@ export default class NonSplitedCard extends React.Component {
 
   render() {
     return (
-      <div className="stats-wrapper bordered">
+    <div className="stats-wrapper bordered" style={{backgroundColor: this.props.fill ? this.props.fill : 'white'}}>
         <span className="value">{this.props.cardValue}</span>
         <span className="title">{this.props.cardTitle}</span>
-      </div>
+    </div>
     );
   }
 }

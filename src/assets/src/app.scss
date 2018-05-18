@@ -606,9 +606,12 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
   .stat-section {
     padding: 45px 15px 25px;
-
-    .stats-wrapper {
+    .inline-stats {
       margin-right: 15px;
+      display: inline-block;
+    }
+    
+    .stats-wrapper {
       padding: 6px 12px;
       display: inline-block;
       border: 1px solid transparent;

@@ -11,7 +11,7 @@ import thousandFormatter from '../../utils'
     tweets: store.tweets.tweets,
   };
 })*/
-export default class SimpleBarChart extends React.Component {
+export default class SimpleBarStackChart extends React.Component {
   constructor() {
     super();
   }
@@ -46,7 +46,9 @@ export default class SimpleBarChart extends React.Component {
           }
         }} />
         <Legend />
-        <Bar dataKey="pv" fill="#8884d8" />
+        <Bar stackId="a" dataKey="pv" fill={this.props.firstStack} />
+        <Bar stackId="a" dataKey="uv" fill={this.props.secondStack} />
+
       </BarChart>
       );
   }

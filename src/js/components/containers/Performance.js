@@ -1,8 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-
-import PageTitle  from "../PageTitle";
-import Overview  from "../Overview";
 /*
 @connect((store) => {
 return {
@@ -22,16 +19,9 @@ export default class Performance extends React.Component {
 
 render() {
   return (
-    <main id="main">
-      <div class="main-wrapper">
-        <div class="container-fluid">
-          <PageTitle />
-          <div class="main-content">
-            <Overview />
-          </div>
-        </div>
-      </div>
-    </main>
+
+    <div>Hi from performance</div>
+
     );
 }
 }

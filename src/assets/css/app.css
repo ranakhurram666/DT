@@ -3464,8 +3464,10 @@ hr.light-grey-hr {
 
 .stat-section {
   padding: 45px 15px 25px; }
-  .stat-section .stats-wrapper {
+  .stat-section .inline-stats {
     margin-right: 15px;
+    display: inline-block; }
+  .stat-section .stats-wrapper {
     padding: 6px 12px;
     display: inline-block;
     border: 1px solid transparent;
