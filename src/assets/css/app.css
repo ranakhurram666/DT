@@ -3471,12 +3471,13 @@ hr.light-grey-hr {
       text-decoration: none; }
   .section-item .section-list:last-child {
     border-style: none; }
-  .section-item .order {
-    background-color: #eeebfd;
-    padding: 10px;
-    border-radius: 100%;
-    color: #6b50ef;
-    margin-right: 10px; }
+
+.order {
+  background-color: #eeebfd;
+  padding: 10px;
+  border-radius: 100%;
+  color: #6b50ef;
+  margin-right: 10px; }
 
 .title h2 i {
   margin-right: 5px; }
@@ -3525,3 +3526,9 @@ hr.light-grey-hr {
     .tabs-area .nav.nav-pills li.react-tabs__tab--selected {
       background: #f5f3fe;
       border-bottom: 3px solid #0247fc; }
+
+.tablular-data-wrapper {
+  padding: 30px 0; }
+  .tablular-data-wrapper .range {
+    padding: 0;
+    display: inline-block; }

@@ -26,7 +26,7 @@ render() {
     <section class="content-white">
     	<div class="clearfix">
 	    	<SplitedCardPerformance 
-		    	colClass={'col-md-3'}
+		    	colClass={'col-md-4'}
 		      cardTitle={'Total Listeners'}
 		      cardValue={'599,404'}
 		      rise={true}
@@ -36,7 +36,7 @@ render() {
 	      />
 			
 	    	<SplitedCardPerformance 
-		    	colClass={'col-md-3'}
+		    	colClass={'col-md-4'}
 		      cardTitle={'Minutes Consumed'}
 		      cardValue={'653,091m'}
 		      rise={true}
@@ -46,7 +46,7 @@ render() {
 	      />
 
 	    	<SplitedCardPerformance 
-		    	colClass={'col-md-3'}
+		    	colClass={'col-md-4'}
 		      cardTitle={'Revenue Generated'}
 		      cardValue={'120,003'}
 		      rise={true}
@@ -54,18 +54,55 @@ render() {
 		      icon={'fas fa-question-circle'}
 		      tagLine={'300 Mins Broadcasted'}
 	      />
-
-	    	<SplitedCardPerformance 
-		    	colClass={'col-md-3'}
-		      cardTitle={'Revenue Generated'}
-		      cardValue={'120,003'}
-		      rise={true}
-		      percentValue={'35.1'}
-		      icon={'fas fa-question-circle'}
-		      tagLine={'300 Mins Broadcasted'}
-	      />
-	      
-
+			</div>
+			<div className="tablular-data-wrapper clearfix">
+				<div className="col-md-6">
+					<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Categories</th>
+			<th>Total Listeners</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><span class="order">1</span> News</td>
+				<td>
+					34,597 
+					<span className="range sucess"><i className="fas fa-arrow-up"></i>10.6 %</span>
+				</td>
+			</tr>
+			<tr>
+				<td><span class="order">2</span> Drama</td>
+					<td>
+						4,495
+						<span className="range sucess"><i className="fas fa-arrow-up"></i>8.4 %</span>
+					</td>
+				</tr>
+				<tr>
+					<td><span class="order">3</span> Kids Stories</td>
+						<td>
+							2,115
+							<span className="range sucess"><i className="fas fa-arrow-up"></i>8.4 %</span>
+						</td>
+					</tr>
+					<tr>
+						<td><span class="order">4</span> Cricket</td>
+							<td>
+								1,597
+								<span className="range sucess"><i className="fas fa-arrow-up"></i>5.9 %</span>
+							</td>
+						</tr>
+						<tr>
+							<td><span class="order">5</span> Tips &amp; Tricks</td>
+								<td>1,030
+									<span className="range sucess"><i className="fas fa-arrow-up"></i>9.7 %</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div className="more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
+				</div>
 			</div>
     </section>
     );
