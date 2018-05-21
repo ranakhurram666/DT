@@ -20,34 +20,68 @@ export default class TabSection extends React.Component {
     super();
     this.state = {
         popularDays: [
-            {name: 'Page A', uv: 4000, pv: 2400, amt: 1000},
-            {name: 'Page B', uv: 3000, pv: 1398, amt: 2000},
-            {name: 'Page C', uv: 2000, pv: 9800, amt: 3000},
-            {name: 'Page D', uv: 2780, pv: 3908, amt: 4000},
-            {name: 'Page E', uv: 1890, pv: 4800, amt: 5000},
-            {name: 'Page F', uv: 2390, pv: 3800, amt: 6000},
-            {name: 'Page G', uv: 3490, pv: 4300, amt: 7000},
-            {name: 'Page H', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'M', uv: 4000, pv: 2400, amt: 1000},
+            {name: 'T', uv: 3000, pv: 1398, amt: 2000},
+            {name: 'W', uv: 2000, pv: 9800, amt: 3000},
+            {name: 'T', uv: 2780, pv: 3908, amt: 4000},
+            {name: 'F', uv: 1890, pv: 4800, amt: 5000},
+            {name: 'S', uv: 2390, pv: 3800, amt: 6000},
+            {name: 'S', uv: 3490, pv: 4300, amt: 7000},
         ],
         peekHours: [
-            {name: 'Page A', uv: 4000, pv: 2400, amt: 1000},
-            {name: 'Page B', uv: 3000, pv: 1398, amt: 2000},
-            {name: 'Page C', uv: 2000, pv: 9800, amt: 3000},
-            {name: 'Page D', uv: 2780, pv: 3908, amt: 4000},
-            {name: 'Page E', uv: 1890, pv: 4800, amt: 5000},
-            {name: 'Page F', uv: 2390, pv: 3800, amt: 6000},
-            {name: 'Page G', uv: 3490, pv: 4300, amt: 7000},
-            {name: 'Page H', uv: 3697, pv: 4500, amt: 8000},
+            {name: '12 AM', uv: 4000, pv: 2400, amt: 1000},
+            {name: '1 AM', uv: 3000, pv: 1398, amt: 2000},
+            {name: '2 AM', uv: 2000, pv: 9800, amt: 3000},
+            {name: '3 AM', uv: 2780, pv: 3908, amt: 4000},
+            {name: '4 AM', uv: 1890, pv: 4800, amt: 5000},
+            {name: '5 AM', uv: 2390, pv: 3800, amt: 6000},
+            {name: '6 AM', uv: 3490, pv: 4300, amt: 7000},
+            {name: '7 AM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '8 AM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '9 AM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '10 AM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '11 AM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '12 PM', uv: 4000, pv: 2400, amt: 1000},
+            {name: '1 PM', uv: 3000, pv: 1398, amt: 2000},
+            {name: '2 PM', uv: 2000, pv: 9800, amt: 3000},
+            {name: '3 PM', uv: 2780, pv: 3908, amt: 4000},
+            {name: '4 PM', uv: 1890, pv: 4800, amt: 5000},
+            {name: '5 PM', uv: 2390, pv: 3800, amt: 6000},
+            {name: '6 PM', uv: 3490, pv: 4300, amt: 7000},
+            {name: '7 PM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '8 PM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '9 PM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '10 PM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '11 PM', uv: 3697, pv: 4500, amt: 8000},
+            {name: '12 AM', uv: 3697, pv: 4500, amt: 8000},
+
         ],
         daysHours: [
-            {x: 100, y: 'Mon'},
-            {x: 200, y: 'Tue'},
-            {x: 300, y: 'Wed'},
-            {x: 400, y: 'Thu'},
-            {x: 500},
-            {x: 600},
-            {x: 700},
-            {x: 800},
+          {x: '12 AM', y: 'Mon'},
+          {x: '1 AM', y: 'Tue'},
+          {x: '2 AM', y: 'Wed'},
+          {x: '3 AM', y: 'Thu'},
+          {x: '4 AM', y: 'Fri'},
+          {x: '5 AM', y: 'Sat'},
+          {x: '6 AM', y: 'Sun'},
+          {x: '7 AM'},
+          {x: '8 AM'},
+          {x: '9 AM'},
+          {x: '10 AM'},
+          {x: '11 AM'},
+          {x: '12 PM'},
+          {x: '1 PM'},
+          {x: '2 PM'},
+          {x: '3 PM'},
+          {x: '4 PM'},
+          {x: '5 PM'},
+          {x: '6 PM'},
+          {x: '7 PM'},
+          {x: '8 PM'},
+          {x: '9 PM'},
+          {x: '10 PM'},
+          {x: '11 PM'},
+
         ]
     }
   }
@@ -73,12 +107,13 @@ export default class TabSection extends React.Component {
             </TabPanel>
             <TabPanel className="text-center">
                <div class="graph-container">
-                <RefAreaChart data={this.state.daysHours} width={700} />
+                <RefAreaChart data={this.state.daysHours} width={1100} />
+               
               </div>
             </TabPanel>
             <TabPanel className="text-center">
                <div class="graph-container">
-                   <SimpleBarChart data={this.state.peekHours} width={700}/>
+                   <SimpleBarChart data={this.state.peekHours} width={1100}/>
               </div>
             </TabPanel>
           </Tabs>

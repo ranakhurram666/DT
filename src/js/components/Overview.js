@@ -24,14 +24,23 @@ export default class Overview extends React.Component {
     super();
     this.state = {
         listenersGraphData : [
-            {name: 'Page A', uv: 4000, pv: 2400, amt: 1000},
-            {name: 'Page B', uv: 3000, pv: 1398, amt: 2000},
-            {name: 'Page C', uv: 2000, pv: 9800, amt: 3000},
-            {name: 'Page D', uv: 2780, pv: 3908, amt: 4000},
-            {name: 'Page E', uv: 1890, pv: 4800, amt: 5000},
-            {name: 'Page F', uv: 2390, pv: 3800, amt: 6000},
-            {name: 'Page G', uv: 3490, pv: 4300, amt: 7000},
-            {name: 'Page H', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'JAN 22', uv: 4000, pv: 2400, amt: 1000},
+            {name: 'JAN 23', uv: 3000, pv: 1398, amt: 2000},
+            {name: 'JAN 24', uv: 2000, pv: 9800, amt: 3000},
+            {name: 'JAN 25', uv: 2780, pv: 3908, amt: 4000},
+            {name: 'JAN 26', uv: 1890, pv: 4800, amt: 5000},
+            {name: 'JAN 27', uv: 2390, pv: 3800, amt: 6000},
+            {name: 'JAN 28', uv: 3490, pv: 4300, amt: 7000},
+            {name: 'JAN 29', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'JAN 30', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'JAN 31', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'FEB 1', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'FEB 2', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'FEB 3', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'FEB 4', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'FEB 5', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'FEB 6', uv: 3697, pv: 4500, amt: 8000},
+            {name: 'FEB 7', uv: 3697, pv: 4500, amt: 8000},
         ],
         newListenersColor: '#5c3dee',
         returningListenersColor: '#5c3dee',
@@ -121,7 +130,7 @@ export default class Overview extends React.Component {
             <div className="col-sm-12">
               <div className="total-listener-graph">
                 {this.state.newListenersColor === '#5c3dee' && this.state.returningListenersColor === '#5c3dee'
-                && <SimpleBarChart data={this.state.listenersGraphData} width={700}/>}
+                && <SimpleBarChart data={this.state.listenersGraphData} width={1100}/>}
                 {(this.state.newListenersColor !== '#5c3dee' ||
                 this.state.returningListenersColor !== '#5c3dee') &&
                 <SimpleBarStackChart data={this.state.listenersGraphData} width={700}
