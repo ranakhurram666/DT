@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 import SplitedCardPerformance from "../cards/SplitedCardPerformance";
+import PerformanceListItem from '../list-items/PerformanceListItem';
 
 
 /*
@@ -15,6 +16,32 @@ tweets: store.tweets.tweets,
 export default class Performance extends React.Component {
   constructor() {
     super();
+    this.state = {
+       totalListeners: [
+			{x: 100, y: 'Mon'},
+			{x: 600, y: 'Tue'},
+			{x: 800, y: 'Wed'},
+			{x: 500, y: 'Thu'},
+			{x: 100}, {x: 700},
+			{x: 300}, {x: 600},
+       ],
+		minutesConsumed: [
+			{x: 100, y: 'Mon'},
+			{x: 600, y: 'Tue'},
+			{x: 800, y: 'Wed'},
+			{x: 400, y: 'Thu'},
+			{x: 100}, {x: 600},
+			{x: 300}, {x: 700},
+       ],
+		revenueGenerated: [
+			{x: 100, y: 'Mon'},
+			{x: 600, y: 'Tue'},
+			{x: 800, y: 'Wed'},
+			{x: 500, y: 'Thu'},
+			{x: 100}, {x: 700},
+			{x: 300}, {x: 600},
+       ]
+	}
   }
   componentWillMount() {
   //this.props.dispatch(fetchUser())
@@ -31,6 +58,7 @@ render() {
 		      cardValue={'599,404'}
 		      rise={true}
 		      percentValue={'10.6'}
+			  tinyChartData={this.state.totalListeners}
 		      icon={'fas fa-question-circle pull'}
 		      tagLine={'13% Of Community Listeners'}
 	      />
@@ -42,6 +70,7 @@ render() {
 		      rise={true}
 		      percentValue={'22.9'}
 		      icon={'fas fa-question-circle'}
+			  tinyChartData={this.state.minutesConsumed}
 		      tagLine={'20% Of Community Munites'}
 	      />
 
@@ -52,6 +81,7 @@ render() {
 		      rise={true}
 		      percentValue={'35.1'}
 		      icon={'fas fa-question-circle'}
+			  tinyChartData={this.state.revenueGenerated}
 		      tagLine={'300 Mins Broadcasted'}
 	      />
 			</div>
@@ -65,40 +95,12 @@ render() {
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<td><span class="order">1</span> News</td>
-								<td>
-									34,597 
-									<span className="range sucess"><i className="fas fa-arrow-up"></i>10.6 %</span>
-								</td>
-							</tr>
-							<tr>
-								<td><span class="order">2</span> Drama</td>
-								<td>
-									4,495
-									<span className="range sucess"><i className="fas fa-arrow-up"></i>8.4 %</span>
-								</td>
-							</tr>
-								<tr>
-									<td><span class="order">3</span> Kids Stories</td>
-									<td>
-										2,115
-										<span className="range sucess"><i className="fas fa-arrow-up"></i>8.4 %</span>
-									</td>
-								</tr>
-								<tr>
-									<td><span class="order">4</span> Cricket</td>
-									<td>
-										1,597
-										<span className="range sucess"><i className="fas fa-arrow-up"></i>5.9 %</span>
-									</td>
-								</tr>
-								<tr>
-									<td><span class="order">5</span> Tips &amp; Tricks</td>
-									<td>1,030
-										<span className="range sucess"><i className="fas fa-arrow-up"></i>9.7 %</span>
-									</td>
-								</tr>
+							<PerformanceListItem rating={1} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={2} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={3} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={4} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={5} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5,693} />
 							</tbody>
 						</table>
 						<div className="more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
@@ -113,40 +115,12 @@ render() {
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<td><span class="order">1</span> News</td>
-								<td>
-									34,597 
-									<span className="range sucess"><i className="fas fa-arrow-up"></i>10.6 %</span>
-								</td>
-							</tr>
-							<tr>
-								<td><span class="order">2</span> Drama</td>
-								<td>
-									4,495
-									<span className="range sucess"><i className="fas fa-arrow-up"></i>8.4 %</span>
-								</td>
-							</tr>
-								<tr>
-									<td><span class="order">3</span> Kids Stories</td>
-									<td>
-										2,115
-										<span className="range sucess"><i className="fas fa-arrow-up"></i>8.4 %</span>
-									</td>
-								</tr>
-								<tr>
-									<td><span class="order">4</span> Cricket</td>
-									<td>
-										1,597
-										<span className="range sucess"><i className="fas fa-arrow-up"></i>5.9 %</span>
-									</td>
-								</tr>
-								<tr>
-									<td><span class="order">5</span> Tips &amp; Tricks</td>
-									<td>1,030
-										<span className="range sucess"><i className="fas fa-arrow-up"></i>9.7 %</span>
-									</td>
-								</tr>
+							<PerformanceListItem rating={1} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={2} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={3} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={4} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={5} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5,693} />
 							</tbody>
 						</table>
 						<div className="more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>

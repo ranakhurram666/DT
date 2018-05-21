@@ -1,5 +1,6 @@
 import React from "react"
 import { connect } from "react-redux"
+import  TinyLineChart from '../charts/TinyLineChart'
 /*
 @connect((store) => {
   return {
@@ -34,7 +35,7 @@ export default class SplitedCardPerformance extends React.Component {
           <span className="value">{this.props.cardValue}</span>
           {this.getRiseAndFall(this.props.rise, this.props.percentValue)}
           <div class="performance-graph">
-            <img src="assets/images/performance-graph.png" title={this.props.cardTitle} alt={this.props.cardTitle} />
+            <TinyLineChart data={this.props.tinyChartData} width={300} />
           </div>
           <div className="tagline">{this.props.tagLine}</div>
       </div>
