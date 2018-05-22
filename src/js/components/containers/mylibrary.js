@@ -8,7 +8,7 @@ userFetched: store.user.fetched,
 tweets: store.tweets.tweets,
 };
 })*/
-export default class Revenue extends React.Component {
+export default class Mylibrary extends React.Component {
   constructor() {
     super();
   }
@@ -22,7 +22,7 @@ render() {
 
     <div>
     	<section className="content-white">
-    		Hi from Revenue
+    		Hi from Mylibrary
     	</section>
     </div>
 

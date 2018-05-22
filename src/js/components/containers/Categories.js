@@ -8,7 +8,7 @@ userFetched: store.user.fetched,
 tweets: store.tweets.tweets,
 };
 })*/
-export default class Revenue extends React.Component {
+export default class Categories extends React.Component {
   constructor() {
     super();
   }
@@ -21,9 +21,7 @@ render() {
   return (
 
     <div>
-    	<section className="content-white">
-    		Hi from Revenue
-    	</section>
+    <section className="content-white">Hi from Categories</section>
     </div>
 
     );
