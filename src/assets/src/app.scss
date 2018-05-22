@@ -25,10 +25,51 @@
     height: 100vh;
   }
 }
+
+.slide-nav-toggle {
+  #main { margin-left: 50px; }
+
+  .fixed-sidebar-left {
+    width: 50px;
+    .side-nav li { 
+      &.navigation-header {
+        > span { display: none; }
+        > i { display: block; }
+      }
+    }
+
+    .collapse.in { display: none; }
+
+    &:hover {
+      width: 200px;
+
+      .side-nav li.navigation-header > span { display: block; }
+      .side-nav li.navigation-header > i { display: none; }
+      .collapse.in { display: block; }
+      .right-nav-text { opacity: 1; }
+    }
+    .right-nav-text { opacity: 0; }
+  }
+
+  &.sidebar-hover {
+    .navbar.navbar-inverse.navbar-fixed-top {
+      width: 200px;
+      .logo-wrap .brand-text {
+        opacity: 1;
+        visibility: visible;
+      } 
+    }
+  }
+}
+
 #main {
   padding-top: 66px;
   margin-left: 200px;
   position: relative;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  left: 0;
 
   .main-wrapper {
     background-color: #f2f4f7;

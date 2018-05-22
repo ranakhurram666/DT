@@ -3021,10 +3021,44 @@ readers do not read off random characters that represent icons */
     table-layout: fixed;
     height: 100vh; }
 
+.slide-nav-toggle #main {
+  margin-left: 50px; }
+
+.slide-nav-toggle .fixed-sidebar-left {
+  width: 50px; }
+  .slide-nav-toggle .fixed-sidebar-left .side-nav li.navigation-header > span {
+    display: none; }
+  .slide-nav-toggle .fixed-sidebar-left .side-nav li.navigation-header > i {
+    display: block; }
+  .slide-nav-toggle .fixed-sidebar-left .collapse.in {
+    display: none; }
+  .slide-nav-toggle .fixed-sidebar-left:hover {
+    width: 200px; }
+    .slide-nav-toggle .fixed-sidebar-left:hover .side-nav li.navigation-header > span {
+      display: block; }
+    .slide-nav-toggle .fixed-sidebar-left:hover .side-nav li.navigation-header > i {
+      display: none; }
+    .slide-nav-toggle .fixed-sidebar-left:hover .collapse.in {
+      display: block; }
+    .slide-nav-toggle .fixed-sidebar-left:hover .right-nav-text {
+      opacity: 1; }
+  .slide-nav-toggle .fixed-sidebar-left .right-nav-text {
+    opacity: 0; }
+
+.slide-nav-toggle.sidebar-hover .navbar.navbar-inverse.navbar-fixed-top {
+  width: 200px; }
+  .slide-nav-toggle.sidebar-hover .navbar.navbar-inverse.navbar-fixed-top .logo-wrap .brand-text {
+    opacity: 1;
+    visibility: visible; }
+
 #main {
   padding-top: 66px;
   margin-left: 200px;
-  position: relative; }
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  left: 0; }
   #main .main-wrapper {
     background-color: #f2f4f7;
     border-top: 1px solid #e8e9ea; }
