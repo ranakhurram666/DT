@@ -3,7 +3,9 @@ import { connect } from "react-redux";
 
 import SplitedCardPerformance from "../cards/SplitedCardPerformance";
 import PerformanceListItem from '../list-items/PerformanceListItem';
+import PerformerListItem from '../list-items/PerformerListItem'
 import NonBorderCard from '../cards/NonBorderCard';
+import SimpleLineChart  from '../charts/SimpleLineChart'
 
 /*
 @connect((store) => {
@@ -18,29 +20,48 @@ export default class Performance extends React.Component {
     super();
     this.state = {
        totalListeners: [
-			{x: 100, y: 'Mon'},
-			{x: 600, y: 'Tue'},
-			{x: 800, y: 'Wed'},
-			{x: 500, y: 'Thu'},
+			{x: 100},
+			{x: 600},
+			{x: 800},
+			{x: 500},
 			{x: 100}, {x: 700},
 			{x: 300}, {x: 600},
        ],
 		minutesConsumed: [
-			{x: 100, y: 'Mon'},
-			{x: 600, y: 'Tue'},
-			{x: 800, y: 'Wed'},
-			{x: 400, y: 'Thu'},
+			{x: 100},
+			{x: 600},
+			{x: 800},
+			{x: 400},
 			{x: 100}, {x: 600},
 			{x: 300}, {x: 700},
        ],
 		revenueGenerated: [
-			{x: 100, y: 'Mon'},
-			{x: 600, y: 'Tue'},
-			{x: 800, y: 'Wed'},
-			{x: 500, y: 'Thu'},
+			{x: 100},
+			{x: 600},
+			{x: 800},
+			{x: 500},
 			{x: 100}, {x: 700},
 			{x: 300}, {x: 600},
-       ]
+	   ],
+	   ProgramsGraphData : [
+		{name: 'JAN 22', uv: 4000, pv: 2400, amt: 7000},
+		{name: 'JAN 23', uv: 3000, pv: 1398, amt: 2700},
+		{name: 'JAN 24', uv: 2000, pv: 9800, amt: 2800},
+		{name: 'JAN 25', uv: 2780, pv: 3908, amt: 9000},
+		{name: 'JAN 26', uv: 1890, pv: 4800, amt: 1500},
+		{name: 'JAN 27', uv: 2390, pv: 3800, amt: 6000},
+		{name: 'JAN 28', uv: 3490, pv: 4300, amt: 7000},
+		{name: 'JAN 29', uv: 3697, pv: 4500, amt: 2200},
+		{name: 'JAN 30', uv: 3697, pv: 4500, amt: 8000},
+		{name: 'JAN 31', uv: 3697, pv: 4500, amt: 300},
+		{name: 'FEB 1', uv: 3697, pv: 4500, amt: 2300},
+		{name: 'FEB 2', uv: 3697, pv: 4500, amt: 1050},
+		{name: 'FEB 3', uv: 3697, pv: 4500, amt: 2500},
+		{name: 'FEB 4', uv: 3697, pv: 4500, amt: 3700},
+		{name: 'FEB 5', uv: 3697, pv: 4500, amt: 3900},
+		{name: 'FEB 6', uv: 3697, pv: 4500, amt: 4200},
+		{name: 'FEB 7', uv: 3697, pv: 4500, amt: 8000},
+	]
 	}
   }
   componentWillMount() {
@@ -96,7 +117,7 @@ render() {
 							</tr>
 						</thead>
 						<tbody>
-							<PerformanceListItem rating={1} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem  rating={1} name={'News'} rise={true} percentValue={10.6} total={5,693} />
 							<PerformanceListItem rating={2} name={'News'} rise={true} percentValue={10.6} total={5,693} />
 							<PerformanceListItem rating={3} name={'News'} rise={true} percentValue={10.6} total={5,693} />
 							<PerformanceListItem rating={4} name={'News'} rise={true} percentValue={10.6} total={5,693} />
@@ -134,6 +155,57 @@ render() {
         <NonBorderCard cardTitle={'Total Listeners'} cardValue={'599,404'} rise={true} percentValue={'10.6'}/>
 
         <button type="button" className="btn btn-primary">Download Report</button>
+		
+		<SimpleLineChart data={this.state.ProgramsGraphData} width={1000} />
+		<div className="tablular-data-wrapper clearfix">
+				<div className="col-md-6">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Top Performers</th>
+								<th>Total Listeners</th>
+							</tr>
+						</thead>
+						<tbody>
+							<PerformerListItem checked={true} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={true} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={false} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={true} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={false} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={true} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={false} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={true} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={true} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+							<PerformerListItem checked={false} name={'Aiza E.01'} rise={true} percentValue={10.6} total={34597} />
+						</tbody>
+						</table>
+						
+					</div>
+
+					<div className="col-md-6">
+					<table class="table table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Bottom Performers</th>
+								<th>Total Listeners</th>
+							</tr>
+						</thead>
+						<tbody>
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+						<PerformerListItem checked={false} name={'Aiza E.01'} rise={false} percentValue={10.6} total={34597} />
+							</tbody>
+						</table>
+						
+					</div>
+			</div>
       </div>
 
     </section>
