@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import SplitedCardPerformance from "../cards/SplitedCardPerformance";
 import PerformanceListItem from '../list-items/PerformanceListItem';
-
+import NonBorderCard from '../cards/NonBorderCard';
 
 /*
 @connect((store) => {
@@ -50,6 +50,7 @@ export default class Performance extends React.Component {
 
 render() {
   return (
+  	<div>
     <section class="content-white">
     	<div class="clearfix">
 	    	<SplitedCardPerformance 
@@ -87,7 +88,7 @@ render() {
 			</div>
 			<div className="tablular-data-wrapper clearfix">
 				<div className="col-md-6">
-					<table class="table table-striped">
+					<table class="table table-bordered table-striped">
 						<thead>
 							<tr>
 								<th>Categories</th>
@@ -107,7 +108,7 @@ render() {
 					</div>
 
 					<div className="col-md-6">
-					<table class="table table-striped">
+					<table class="table table-bordered table-striped">
 						<thead>
 							<tr>
 								<th>Categories</th>
@@ -127,6 +128,16 @@ render() {
 					</div>
 			</div>
     </section>
+
+    <section class="content-white">
+    	<div className="stat-section clearfix">
+        <NonBorderCard cardTitle={'Total Listeners'} cardValue={'599,404'} rise={true} percentValue={'10.6'}/>
+
+        <button type="button" className="btn btn-primary">Download Report</button>
+      </div>
+
+    </section>
+	</div>
     );
 }
 }

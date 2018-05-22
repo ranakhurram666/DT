@@ -45,51 +45,7 @@ export default class NavBar extends React.Component {
               </a>
               <ul  class="dropdown-menu alert-dropdown" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut">
                 <li>
-                  <div class="notification-box-head-wrap">
-                    <span class="notification-box-head pull-left inline-block">notifications</span>
-                    <a class="txt-danger pull-right clear-notifications inline-block" href="javascript:void(0)"> clear all </a>
-                    <div class="clearfix"></div>
-                    <hr class="light-grey-hr ma-0"/>
-                  </div>
-                </li>
-                <li>
-                  <div class="streamline">
-                    <div class="sl-item">
-                      <a href="javascript:void(0)">
-                        <div class="icon bg-green">
-                          <i class="fas fa-user"></i>
-                        </div>
-                        <div class="sl-content">
-                          <span class="inline-block capitalize-font  pull-left truncate head-notifications">
-                          New subscription created</span>
-                          <span class="inline-block font-11  pull-right notifications-time">2pm</span>
-                          <div class="clearfix"></div>
-                          <p class="truncate">Your customer subscribed for the basic plan. The customer will pay $25 per month.</p>
-                        </div>
-                      </a>  
-                    </div>
-                    <hr class="light-grey-hr ma-0"/>
-                    <div class="sl-item">
-                      <a href="javascript:void(0)">
-                        <div class="icon bg-red">
-                          <i class="fas fa-user"></i>
-                        </div>
-                        <div class="sl-content">
-                          <span class="inline-block capitalize-font  pull-left truncate head-notifications txt-danger">9%9 server space occupied.</span>
-                          <span class="inline-block font-11  pull-right notifications-time">1pm</span>
-                          <div class="clearfix"></div>
-                          <p class="truncate">consectetur, adipisci velit.</p>
-                        </div>
-                      </a>  
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="notification-box-bottom-wrap">
-                    <hr class="light-grey-hr ma-0"/>
-                    <a class="block text-center read-all" href="javascript:void(0)"> read all </a>
-                    <div class="clearfix"></div>
-                  </div>
+                    <a href="">Notification Listing</a>
                 </li>
               </ul>
             </li>
