@@ -117,12 +117,12 @@ render() {
 							</tr>
 						</thead>
 						<tbody>
-							<PerformanceListItem  rating={1} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={2} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={3} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={4} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={5} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem  rating={1} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={2} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={3} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={4} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={5} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5693} />
 							</tbody>
 						</table>
 						<div className="table-footer more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
@@ -137,12 +137,12 @@ render() {
 							</tr>
 						</thead>
 						<tbody>
-							<PerformanceListItem rating={1} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={2} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={3} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={4} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={5} name={'News'} rise={true} percentValue={10.6} total={5,693} />
-							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5,693} />
+							<PerformanceListItem rating={1} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={2} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={3} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={4} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={5} name={'News'} rise={true} percentValue={10.6} total={5693} />
+							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5693} />
 							</tbody>
 						</table>
 						<div className="table-footer more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
