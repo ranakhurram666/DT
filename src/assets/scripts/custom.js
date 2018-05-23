@@ -38,8 +38,7 @@ $(document).ready(function() {
 	});
 
 	/*show on hover*/
-	$(document).on("mouseenter mouseleave",".wrapper > .fixed-sidebar-left", function(e) {
-		alert('mouseenter');
+	$(document).on('mouseenter mouseleave','.wrapper .fixed-sidebar-left', function(e) {
 		if (e.type == "mouseenter") {
 			$wrapper.addClass("sidebar-hover"); 
 		}
