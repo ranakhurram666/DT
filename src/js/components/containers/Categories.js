@@ -72,7 +72,7 @@ render() {
                     <tbody>
                     { this.state.categories.map((item) => {
                       return (
-                          <tr>
+                          <tr key={item.name}>
                             <NameListItem name={item.name} rise={item.nameRise}/>
                             <TotalListItem total={item.totalListener} rise={item.listenerRise}
                                            percentValue={item.listenersPercent}/>

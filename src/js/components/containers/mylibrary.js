@@ -8,7 +8,7 @@ userFetched: store.user.fetched,
 tweets: store.tweets.tweets,
 };
 })*/
-export default class Mylibrary extends React.Component {
+export default class MyLibrary extends React.Component {
   constructor() {
     super();
   }
