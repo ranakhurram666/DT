@@ -16,7 +16,8 @@ import AgeGender from './components/containers/AgeGender';
 import Location from './components/containers/Location';
 
 import Newuploads from './components/containers/Newuploads';
-import Mylibrary from './components/containers/Mylibrary';
+import MyLibrary from './components/containers/MyLibrary';
+import CategoryDetail from './components/containers/CategoryDetail';
 
 import store from "./store"
 
@@ -34,16 +35,16 @@ ReactDOM.render(
       <Route path="performance" component={Performance}></Route>
       <Route path="revenue" component={Revenue}></Route>
       <Route path="categories" component={Categories}></Route>
+      <Route path="categories/details" component={CategoryDetail}></Route>
       <Route path="program" component={Program}></Route>
       <Route path="episodes" component={Episodes}></Route>
       <Route path="ageGender" component={AgeGender}></Route>
       <Route path="location" component={Location}></Route>
       
       <Route path="newuploads" component={Newuploads}></Route>
-      <Route path="mylibrary" component={Mylibrary}></Route>
+      <Route path="mylibrary" component={MyLibrary}></Route>
 
     </Route>
-    {/*<Route path="archives" name="archives" component={Archives}></Route>*/}
     </Route>
   </Router>,
 app);
