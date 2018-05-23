@@ -204,10 +204,12 @@
 
   &.navbar-fixed-top {
     margin-bottom: 0;
+    border-bottom: 1px solid #e8e9ea;
     background-color: white;
     min-height: 66px;
     padding: 0 15px 0 0;
     position: fixed;
+
     .nav-header { 
       background:#242424;
       width: 200px;
@@ -755,22 +757,36 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
       &.table-bordered {
         > thead > tr > th { border-bottom-width: 1px; }
       }
+
+      &.table-with-borderless-header {
+        &.table-bordered {
+          margin-bottom: 20px;
+          border: none;
+          > thead > tr > th { border: none; }
+        }
+      }
     }
   }
 
-  .more-categories {
-    a {
-      padding: 8px;
-      background: #eeebfd;
-      text-align: center;
-      display: block;
-      font-size: 14px;
-      border: 1px solid #e4e4e4;
+  .table-footer {
+    padding: 8px;
+    background: #eeebfd;
+    color: $brand-primary;
+    font-size: 16px;
 
-      i { margin-left: 10px; }
+    &.more-categories {
+      a {
+        text-align: center;
+        display: block;
+        font-size: 14px;
+        border: 1px solid #e4e4e4;
 
-      &:hover { text-decoration: none; }
+        i { margin-left: 10px; }
+
+        &:hover { text-decoration: none; }
+      }
     }
+    
   }
 
   .dropdown-menu {

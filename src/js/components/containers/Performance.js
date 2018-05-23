@@ -125,7 +125,7 @@ render() {
 							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5,693} />
 							</tbody>
 						</table>
-						<div className="more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
+						<div className="table-footer more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
 					</div>
 
 					<div className="col-md-6">
@@ -145,7 +145,7 @@ render() {
 							<PerformanceListItem rating={6} name={'News'} rise={true} percentValue={10.6} total={5,693} />
 							</tbody>
 						</table>
-						<div className="more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
+						<div className="table-footer more-categories"><a href="">More Categories Details <i className="fas fa-chevron-right"></i></a></div>
 					</div>
 			</div>
     </section>

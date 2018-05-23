@@ -3171,6 +3171,7 @@ readers do not read off random characters that represent icons */
 
 .navbar.navbar-fixed-top {
   margin-bottom: 0;
+  border-bottom: 1px solid #e8e9ea;
   background-color: white;
   min-height: 66px;
   padding: 0 15px 0 0;
@@ -3576,18 +3577,26 @@ hr.light-grey-hr {
       vertical-align: middle; }
     .tablular-data-wrapper .table.table-bordered > thead > tr > th {
       border-bottom-width: 1px; }
+    .tablular-data-wrapper .table.table-with-borderless-header.table-bordered {
+      margin-bottom: 20px;
+      border: none; }
+      .tablular-data-wrapper .table.table-with-borderless-header.table-bordered > thead > tr > th {
+        border: none; }
 
-.more-categories a {
+.table-footer {
   padding: 8px;
   background: #eeebfd;
-  text-align: center;
-  display: block;
-  font-size: 14px;
-  border: 1px solid #e4e4e4; }
-  .more-categories a i {
-    margin-left: 10px; }
-  .more-categories a:hover {
-    text-decoration: none; }
+  color: #0247fc;
+  font-size: 16px; }
+  .table-footer.more-categories a {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #e4e4e4; }
+    .table-footer.more-categories a i {
+      margin-left: 10px; }
+    .table-footer.more-categories a:hover {
+      text-decoration: none; }
 
 .dropdown-menu {
   padding: 0; }
