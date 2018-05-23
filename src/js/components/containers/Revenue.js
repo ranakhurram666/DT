@@ -9,6 +9,7 @@ tweets: store.tweets.tweets,
 };
 })*/
 export default class Revenue extends React.Component {
+  
   constructor() {
     super();
   }
