@@ -18,6 +18,7 @@ import Location from './components/containers/Location';
 
 import Newuploads from './components/containers/Newuploads';
 import Mylibrary from './components/containers/Mylibrary';
+import EpisodesDetails from './components/containers/EpisodesDetails';
 
 import store from "./store"
 
@@ -45,6 +46,8 @@ ReactDOM.render(
       
       <Route path="newuploads" component={Newuploads}></Route>
       <Route path="mylibrary" component={Mylibrary}></Route>
+            <Route path="episodes/details" component={EpisodesDetails}></Route>
+
 
     </Route>
     {/*<Route path="archives" name="archives" component={Archives}></Route>*/}

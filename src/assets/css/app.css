@@ -4,6 +4,7 @@
  * Font Awesome Free 5.0.12 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_core.scss */
 .fa,
 .fas,
 .far,
@@ -17,58 +18,75 @@
   text-rendering: auto;
   line-height: 1; }
 
+/* line 5, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -.0667em; }
 
+/* line 11, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-xs {
   font-size: .75em; }
 
+/* line 15, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-sm {
   font-size: .875em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-1x {
   font-size: 1em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-2x {
   font-size: 2em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-3x {
   font-size: 3em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-4x {
   font-size: 4em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-5x {
   font-size: 5em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-6x {
   font-size: 6em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-7x {
   font-size: 7em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-8x {
   font-size: 8em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-9x {
   font-size: 9em; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_larger.scss */
 .fa-10x {
   font-size: 10em; }
 
+/* line 3, E:/telenor/DT/src/assets/src/font-awesome/_fixed-width.scss */
 .fa-fw {
   text-align: center;
   width: 1.25em; }
 
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_list.scss */
 .fa-ul {
   list-style-type: none;
   margin-left: 2.5em;
   padding-left: 0; }
+  /* line 9, E:/telenor/DT/src/assets/src/font-awesome/_list.scss */
   .fa-ul > li {
     position: relative; }
 
+/* line 12, E:/telenor/DT/src/assets/src/font-awesome/_list.scss */
 .fa-li {
   left: -2em;
   position: absolute;
@@ -76,17 +94,21 @@
   width: 2em;
   line-height: inherit; }
 
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_bordered-pulled.scss */
 .fa-border {
   border: solid 0.08em #eee;
   border-radius: .1em;
   padding: .2em .25em .15em; }
 
+/* line 10, E:/telenor/DT/src/assets/src/font-awesome/_bordered-pulled.scss */
 .fa-pull-left {
   float: left; }
 
+/* line 11, E:/telenor/DT/src/assets/src/font-awesome/_bordered-pulled.scss */
 .fa-pull-right {
   float: right; }
 
+/* line 14, E:/telenor/DT/src/assets/src/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-left,
 .fas.fa-pull-left,
 .far.fa-pull-left,
@@ -94,6 +116,7 @@
 .fab.fa-pull-left {
   margin-right: .3em; }
 
+/* line 15, E:/telenor/DT/src/assets/src/font-awesome/_bordered-pulled.scss */
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
@@ -101,9 +124,11 @@
 .fab.fa-pull-right {
   margin-left: .3em; }
 
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_animated.scss */
 .fa-spin {
   animation: fa-spin 2s infinite linear; }
 
+/* line 8, E:/telenor/DT/src/assets/src/font-awesome/_animated.scss */
 .fa-pulse {
   animation: fa-spin 1s infinite steps(8); }
 
@@ -113,30 +138,37 @@
   100% {
     transform: rotate(360deg); } }
 
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_rotated-flipped.scss */
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg); }
 
+/* line 5, E:/telenor/DT/src/assets/src/font-awesome/_rotated-flipped.scss */
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   transform: rotate(180deg); }
 
+/* line 6, E:/telenor/DT/src/assets/src/font-awesome/_rotated-flipped.scss */
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   transform: rotate(270deg); }
 
+/* line 8, E:/telenor/DT/src/assets/src/font-awesome/_rotated-flipped.scss */
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
   transform: scale(-1, 1); }
 
+/* line 9, E:/telenor/DT/src/assets/src/font-awesome/_rotated-flipped.scss */
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(1, -1); }
 
+/* line 10, E:/telenor/DT/src/assets/src/font-awesome/_rotated-flipped.scss */
 .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1); }
 
+/* line 16, E:/telenor/DT/src/assets/src/font-awesome/_rotated-flipped.scss */
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
@@ -144,6 +176,7 @@
 :root .fa-flip-vertical {
   filter: none; }
 
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_stacked.scss */
 .fa-stack {
   display: inline-block;
   height: 2em;
@@ -152,6 +185,7 @@
   vertical-align: middle;
   width: 2em; }
 
+/* line 13, E:/telenor/DT/src/assets/src/font-awesome/_stacked.scss */
 .fa-stack-1x,
 .fa-stack-2x {
   left: 0;
@@ -159,2786 +193,3713 @@
   text-align: center;
   width: 100%; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_stacked.scss */
 .fa-stack-1x {
   line-height: inherit; }
 
+/* line 24, E:/telenor/DT/src/assets/src/font-awesome/_stacked.scss */
 .fa-stack-2x {
   font-size: 2em; }
 
+/* line 28, E:/telenor/DT/src/assets/src/font-awesome/_stacked.scss */
 .fa-inverse {
   color: #fff; }
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-500px:before {
   content: "\f26e"; }
 
+/* line 5, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-accessible-icon:before {
   content: "\f368"; }
 
+/* line 6, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-accusoft:before {
   content: "\f369"; }
 
+/* line 7, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-address-book:before {
   content: "\f2b9"; }
 
+/* line 8, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-address-card:before {
   content: "\f2bb"; }
 
+/* line 9, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-adjust:before {
   content: "\f042"; }
 
+/* line 10, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-adn:before {
   content: "\f170"; }
 
+/* line 11, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-adversal:before {
   content: "\f36a"; }
 
+/* line 12, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-affiliatetheme:before {
   content: "\f36b"; }
 
+/* line 13, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-algolia:before {
   content: "\f36c"; }
 
+/* line 14, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-align-center:before {
   content: "\f037"; }
 
+/* line 15, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-align-justify:before {
   content: "\f039"; }
 
+/* line 16, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-align-left:before {
   content: "\f036"; }
 
+/* line 17, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-align-right:before {
   content: "\f038"; }
 
+/* line 18, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-allergies:before {
   content: "\f461"; }
 
+/* line 19, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-amazon:before {
   content: "\f270"; }
 
+/* line 20, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-amazon-pay:before {
   content: "\f42c"; }
 
+/* line 21, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ambulance:before {
   content: "\f0f9"; }
 
+/* line 22, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-american-sign-language-interpreting:before {
   content: "\f2a3"; }
 
+/* line 23, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-amilia:before {
   content: "\f36d"; }
 
+/* line 24, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-anchor:before {
   content: "\f13d"; }
 
+/* line 25, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-android:before {
   content: "\f17b"; }
 
+/* line 26, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angellist:before {
   content: "\f209"; }
 
+/* line 27, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-double-down:before {
   content: "\f103"; }
 
+/* line 28, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-double-left:before {
   content: "\f100"; }
 
+/* line 29, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-double-right:before {
   content: "\f101"; }
 
+/* line 30, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-double-up:before {
   content: "\f102"; }
 
+/* line 31, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-down:before {
   content: "\f107"; }
 
+/* line 32, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-left:before {
   content: "\f104"; }
 
+/* line 33, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-right:before {
   content: "\f105"; }
 
+/* line 34, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angle-up:before {
   content: "\f106"; }
 
+/* line 35, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angrycreative:before {
   content: "\f36e"; }
 
+/* line 36, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-angular:before {
   content: "\f420"; }
 
+/* line 37, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-app-store:before {
   content: "\f36f"; }
 
+/* line 38, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-app-store-ios:before {
   content: "\f370"; }
 
+/* line 39, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-apper:before {
   content: "\f371"; }
 
+/* line 40, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-apple:before {
   content: "\f179"; }
 
+/* line 41, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-apple-pay:before {
   content: "\f415"; }
 
+/* line 42, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-archive:before {
   content: "\f187"; }
 
+/* line 43, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-down:before {
   content: "\f358"; }
 
+/* line 44, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-left:before {
   content: "\f359"; }
 
+/* line 45, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-right:before {
   content: "\f35a"; }
 
+/* line 46, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-alt-circle-up:before {
   content: "\f35b"; }
 
+/* line 47, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-circle-down:before {
   content: "\f0ab"; }
 
+/* line 48, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-circle-left:before {
   content: "\f0a8"; }
 
+/* line 49, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-circle-right:before {
   content: "\f0a9"; }
 
+/* line 50, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-circle-up:before {
   content: "\f0aa"; }
 
+/* line 51, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-down:before {
   content: "\f063"; }
 
+/* line 52, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-left:before {
   content: "\f060"; }
 
+/* line 53, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-right:before {
   content: "\f061"; }
 
+/* line 54, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrow-up:before {
   content: "\f062"; }
 
+/* line 55, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrows-alt:before {
   content: "\f0b2"; }
 
+/* line 56, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrows-alt-h:before {
   content: "\f337"; }
 
+/* line 57, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-arrows-alt-v:before {
   content: "\f338"; }
 
+/* line 58, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-assistive-listening-systems:before {
   content: "\f2a2"; }
 
+/* line 59, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-asterisk:before {
   content: "\f069"; }
 
+/* line 60, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-asymmetrik:before {
   content: "\f372"; }
 
+/* line 61, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-at:before {
   content: "\f1fa"; }
 
+/* line 62, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-audible:before {
   content: "\f373"; }
 
+/* line 63, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-audio-description:before {
   content: "\f29e"; }
 
+/* line 64, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-autoprefixer:before {
   content: "\f41c"; }
 
+/* line 65, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-avianex:before {
   content: "\f374"; }
 
+/* line 66, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-aviato:before {
   content: "\f421"; }
 
+/* line 67, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-aws:before {
   content: "\f375"; }
 
+/* line 68, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-backward:before {
   content: "\f04a"; }
 
+/* line 69, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-balance-scale:before {
   content: "\f24e"; }
 
+/* line 70, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ban:before {
   content: "\f05e"; }
 
+/* line 71, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-band-aid:before {
   content: "\f462"; }
 
+/* line 72, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bandcamp:before {
   content: "\f2d5"; }
 
+/* line 73, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-barcode:before {
   content: "\f02a"; }
 
+/* line 74, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bars:before {
   content: "\f0c9"; }
 
+/* line 75, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-baseball-ball:before {
   content: "\f433"; }
 
+/* line 76, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-basketball-ball:before {
   content: "\f434"; }
 
+/* line 77, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bath:before {
   content: "\f2cd"; }
 
+/* line 78, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-battery-empty:before {
   content: "\f244"; }
 
+/* line 79, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-battery-full:before {
   content: "\f240"; }
 
+/* line 80, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-battery-half:before {
   content: "\f242"; }
 
+/* line 81, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-battery-quarter:before {
   content: "\f243"; }
 
+/* line 82, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-battery-three-quarters:before {
   content: "\f241"; }
 
+/* line 83, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bed:before {
   content: "\f236"; }
 
+/* line 84, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-beer:before {
   content: "\f0fc"; }
 
+/* line 85, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-behance:before {
   content: "\f1b4"; }
 
+/* line 86, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-behance-square:before {
   content: "\f1b5"; }
 
+/* line 87, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bell:before {
   content: "\f0f3"; }
 
+/* line 88, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bell-slash:before {
   content: "\f1f6"; }
 
+/* line 89, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bicycle:before {
   content: "\f206"; }
 
+/* line 90, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bimobject:before {
   content: "\f378"; }
 
+/* line 91, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-binoculars:before {
   content: "\f1e5"; }
 
+/* line 92, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-birthday-cake:before {
   content: "\f1fd"; }
 
+/* line 93, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bitbucket:before {
   content: "\f171"; }
 
+/* line 94, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bitcoin:before {
   content: "\f379"; }
 
+/* line 95, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bity:before {
   content: "\f37a"; }
 
+/* line 96, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-black-tie:before {
   content: "\f27e"; }
 
+/* line 97, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-blackberry:before {
   content: "\f37b"; }
 
+/* line 98, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-blind:before {
   content: "\f29d"; }
 
+/* line 99, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-blogger:before {
   content: "\f37c"; }
 
+/* line 100, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-blogger-b:before {
   content: "\f37d"; }
 
+/* line 101, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bluetooth:before {
   content: "\f293"; }
 
+/* line 102, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bluetooth-b:before {
   content: "\f294"; }
 
+/* line 103, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bold:before {
   content: "\f032"; }
 
+/* line 104, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bolt:before {
   content: "\f0e7"; }
 
+/* line 105, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bomb:before {
   content: "\f1e2"; }
 
+/* line 106, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-book:before {
   content: "\f02d"; }
 
+/* line 107, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bookmark:before {
   content: "\f02e"; }
 
+/* line 108, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bowling-ball:before {
   content: "\f436"; }
 
+/* line 109, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-box:before {
   content: "\f466"; }
 
+/* line 110, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-box-open:before {
   content: "\f49e"; }
 
+/* line 111, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-boxes:before {
   content: "\f468"; }
 
+/* line 112, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-braille:before {
   content: "\f2a1"; }
 
+/* line 113, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-briefcase:before {
   content: "\f0b1"; }
 
+/* line 114, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-briefcase-medical:before {
   content: "\f469"; }
 
+/* line 115, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-btc:before {
   content: "\f15a"; }
 
+/* line 116, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bug:before {
   content: "\f188"; }
 
+/* line 117, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-building:before {
   content: "\f1ad"; }
 
+/* line 118, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bullhorn:before {
   content: "\f0a1"; }
 
+/* line 119, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bullseye:before {
   content: "\f140"; }
 
+/* line 120, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-burn:before {
   content: "\f46a"; }
 
+/* line 121, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-buromobelexperte:before {
   content: "\f37f"; }
 
+/* line 122, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-bus:before {
   content: "\f207"; }
 
+/* line 123, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-buysellads:before {
   content: "\f20d"; }
 
+/* line 124, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-calculator:before {
   content: "\f1ec"; }
 
+/* line 125, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-calendar:before {
   content: "\f133"; }
 
+/* line 126, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-calendar-alt:before {
   content: "\f073"; }
 
+/* line 127, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-calendar-check:before {
   content: "\f274"; }
 
+/* line 128, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-calendar-minus:before {
   content: "\f272"; }
 
+/* line 129, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-calendar-plus:before {
   content: "\f271"; }
 
+/* line 130, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-calendar-times:before {
   content: "\f273"; }
 
+/* line 131, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-camera:before {
   content: "\f030"; }
 
+/* line 132, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-camera-retro:before {
   content: "\f083"; }
 
+/* line 133, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-capsules:before {
   content: "\f46b"; }
 
+/* line 134, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-car:before {
   content: "\f1b9"; }
 
+/* line 135, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-down:before {
   content: "\f0d7"; }
 
+/* line 136, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-left:before {
   content: "\f0d9"; }
 
+/* line 137, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-right:before {
   content: "\f0da"; }
 
+/* line 138, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-square-down:before {
   content: "\f150"; }
 
+/* line 139, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-square-left:before {
   content: "\f191"; }
 
+/* line 140, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-square-right:before {
   content: "\f152"; }
 
+/* line 141, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-square-up:before {
   content: "\f151"; }
 
+/* line 142, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-caret-up:before {
   content: "\f0d8"; }
 
+/* line 143, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cart-arrow-down:before {
   content: "\f218"; }
 
+/* line 144, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cart-plus:before {
   content: "\f217"; }
 
+/* line 145, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-amazon-pay:before {
   content: "\f42d"; }
 
+/* line 146, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-amex:before {
   content: "\f1f3"; }
 
+/* line 147, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-apple-pay:before {
   content: "\f416"; }
 
+/* line 148, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-diners-club:before {
   content: "\f24c"; }
 
+/* line 149, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-discover:before {
   content: "\f1f2"; }
 
+/* line 150, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-jcb:before {
   content: "\f24b"; }
 
+/* line 151, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-mastercard:before {
   content: "\f1f1"; }
 
+/* line 152, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-paypal:before {
   content: "\f1f4"; }
 
+/* line 153, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-stripe:before {
   content: "\f1f5"; }
 
+/* line 154, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cc-visa:before {
   content: "\f1f0"; }
 
+/* line 155, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-centercode:before {
   content: "\f380"; }
 
+/* line 156, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-certificate:before {
   content: "\f0a3"; }
 
+/* line 157, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chart-area:before {
   content: "\f1fe"; }
 
+/* line 158, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chart-bar:before {
   content: "\f080"; }
 
+/* line 159, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chart-line:before {
   content: "\f201"; }
 
+/* line 160, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chart-pie:before {
   content: "\f200"; }
 
+/* line 161, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-check:before {
   content: "\f00c"; }
 
+/* line 162, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-check-circle:before {
   content: "\f058"; }
 
+/* line 163, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-check-square:before {
   content: "\f14a"; }
 
+/* line 164, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess:before {
   content: "\f439"; }
 
+/* line 165, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess-bishop:before {
   content: "\f43a"; }
 
+/* line 166, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess-board:before {
   content: "\f43c"; }
 
+/* line 167, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess-king:before {
   content: "\f43f"; }
 
+/* line 168, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess-knight:before {
   content: "\f441"; }
 
+/* line 169, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess-pawn:before {
   content: "\f443"; }
 
+/* line 170, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess-queen:before {
   content: "\f445"; }
 
+/* line 171, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chess-rook:before {
   content: "\f447"; }
 
+/* line 172, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-circle-down:before {
   content: "\f13a"; }
 
+/* line 173, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-circle-left:before {
   content: "\f137"; }
 
+/* line 174, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-circle-right:before {
   content: "\f138"; }
 
+/* line 175, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-circle-up:before {
   content: "\f139"; }
 
+/* line 176, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-down:before {
   content: "\f078"; }
 
+/* line 177, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-left:before {
   content: "\f053"; }
 
+/* line 178, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-right:before {
   content: "\f054"; }
 
+/* line 179, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chevron-up:before {
   content: "\f077"; }
 
+/* line 180, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-child:before {
   content: "\f1ae"; }
 
+/* line 181, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-chrome:before {
   content: "\f268"; }
 
+/* line 182, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-circle:before {
   content: "\f111"; }
 
+/* line 183, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-circle-notch:before {
   content: "\f1ce"; }
 
+/* line 184, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-clipboard:before {
   content: "\f328"; }
 
+/* line 185, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-clipboard-check:before {
   content: "\f46c"; }
 
+/* line 186, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-clipboard-list:before {
   content: "\f46d"; }
 
+/* line 187, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-clock:before {
   content: "\f017"; }
 
+/* line 188, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-clone:before {
   content: "\f24d"; }
 
+/* line 189, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-closed-captioning:before {
   content: "\f20a"; }
 
+/* line 190, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cloud:before {
   content: "\f0c2"; }
 
+/* line 191, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cloud-download-alt:before {
   content: "\f381"; }
 
+/* line 192, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cloud-upload-alt:before {
   content: "\f382"; }
 
+/* line 193, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cloudscale:before {
   content: "\f383"; }
 
+/* line 194, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cloudsmith:before {
   content: "\f384"; }
 
+/* line 195, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cloudversify:before {
   content: "\f385"; }
 
+/* line 196, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-code:before {
   content: "\f121"; }
 
+/* line 197, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-code-branch:before {
   content: "\f126"; }
 
+/* line 198, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-codepen:before {
   content: "\f1cb"; }
 
+/* line 199, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-codiepie:before {
   content: "\f284"; }
 
+/* line 200, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-coffee:before {
   content: "\f0f4"; }
 
+/* line 201, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cog:before {
   content: "\f013"; }
 
+/* line 202, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cogs:before {
   content: "\f085"; }
 
+/* line 203, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-columns:before {
   content: "\f0db"; }
 
+/* line 204, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-comment:before {
   content: "\f075"; }
 
+/* line 205, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-comment-alt:before {
   content: "\f27a"; }
 
+/* line 206, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-comment-dots:before {
   content: "\f4ad"; }
 
+/* line 207, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-comment-slash:before {
   content: "\f4b3"; }
 
+/* line 208, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-comments:before {
   content: "\f086"; }
 
+/* line 209, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-compass:before {
   content: "\f14e"; }
 
+/* line 210, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-compress:before {
   content: "\f066"; }
 
+/* line 211, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-connectdevelop:before {
   content: "\f20e"; }
 
+/* line 212, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-contao:before {
   content: "\f26d"; }
 
+/* line 213, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-copy:before {
   content: "\f0c5"; }
 
+/* line 214, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-copyright:before {
   content: "\f1f9"; }
 
+/* line 215, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-couch:before {
   content: "\f4b8"; }
 
+/* line 216, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cpanel:before {
   content: "\f388"; }
 
+/* line 217, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons:before {
   content: "\f25e"; }
 
+/* line 218, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-by:before {
   content: "\f4e7"; }
 
+/* line 219, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-nc:before {
   content: "\f4e8"; }
 
+/* line 220, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-nc-eu:before {
   content: "\f4e9"; }
 
+/* line 221, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-nc-jp:before {
   content: "\f4ea"; }
 
+/* line 222, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-nd:before {
   content: "\f4eb"; }
 
+/* line 223, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-pd:before {
   content: "\f4ec"; }
 
+/* line 224, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-pd-alt:before {
   content: "\f4ed"; }
 
+/* line 225, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-remix:before {
   content: "\f4ee"; }
 
+/* line 226, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-sa:before {
   content: "\f4ef"; }
 
+/* line 227, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-sampling:before {
   content: "\f4f0"; }
 
+/* line 228, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-sampling-plus:before {
   content: "\f4f1"; }
 
+/* line 229, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-creative-commons-share:before {
   content: "\f4f2"; }
 
+/* line 230, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-credit-card:before {
   content: "\f09d"; }
 
+/* line 231, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-crop:before {
   content: "\f125"; }
 
+/* line 232, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-crosshairs:before {
   content: "\f05b"; }
 
+/* line 233, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-css3:before {
   content: "\f13c"; }
 
+/* line 234, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-css3-alt:before {
   content: "\f38b"; }
 
+/* line 235, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cube:before {
   content: "\f1b2"; }
 
+/* line 236, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cubes:before {
   content: "\f1b3"; }
 
+/* line 237, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cut:before {
   content: "\f0c4"; }
 
+/* line 238, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-cuttlefish:before {
   content: "\f38c"; }
 
+/* line 239, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-d-and-d:before {
   content: "\f38d"; }
 
+/* line 240, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dashcube:before {
   content: "\f210"; }
 
+/* line 241, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-database:before {
   content: "\f1c0"; }
 
+/* line 242, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-deaf:before {
   content: "\f2a4"; }
 
+/* line 243, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-delicious:before {
   content: "\f1a5"; }
 
+/* line 244, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-deploydog:before {
   content: "\f38e"; }
 
+/* line 245, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-deskpro:before {
   content: "\f38f"; }
 
+/* line 246, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-desktop:before {
   content: "\f108"; }
 
+/* line 247, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-deviantart:before {
   content: "\f1bd"; }
 
+/* line 248, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-diagnoses:before {
   content: "\f470"; }
 
+/* line 249, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-digg:before {
   content: "\f1a6"; }
 
+/* line 250, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-digital-ocean:before {
   content: "\f391"; }
 
+/* line 251, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-discord:before {
   content: "\f392"; }
 
+/* line 252, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-discourse:before {
   content: "\f393"; }
 
+/* line 253, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dna:before {
   content: "\f471"; }
 
+/* line 254, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dochub:before {
   content: "\f394"; }
 
+/* line 255, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-docker:before {
   content: "\f395"; }
 
+/* line 256, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dollar-sign:before {
   content: "\f155"; }
 
+/* line 257, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dolly:before {
   content: "\f472"; }
 
+/* line 258, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dolly-flatbed:before {
   content: "\f474"; }
 
+/* line 259, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-donate:before {
   content: "\f4b9"; }
 
+/* line 260, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dot-circle:before {
   content: "\f192"; }
 
+/* line 261, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dove:before {
   content: "\f4ba"; }
 
+/* line 262, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-download:before {
   content: "\f019"; }
 
+/* line 263, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-draft2digital:before {
   content: "\f396"; }
 
+/* line 264, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dribbble:before {
   content: "\f17d"; }
 
+/* line 265, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dribbble-square:before {
   content: "\f397"; }
 
+/* line 266, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dropbox:before {
   content: "\f16b"; }
 
+/* line 267, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-drupal:before {
   content: "\f1a9"; }
 
+/* line 268, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-dyalog:before {
   content: "\f399"; }
 
+/* line 269, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-earlybirds:before {
   content: "\f39a"; }
 
+/* line 270, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ebay:before {
   content: "\f4f4"; }
 
+/* line 271, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-edge:before {
   content: "\f282"; }
 
+/* line 272, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-edit:before {
   content: "\f044"; }
 
+/* line 273, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-eject:before {
   content: "\f052"; }
 
+/* line 274, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-elementor:before {
   content: "\f430"; }
 
+/* line 275, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ellipsis-h:before {
   content: "\f141"; }
 
+/* line 276, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ellipsis-v:before {
   content: "\f142"; }
 
+/* line 277, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ember:before {
   content: "\f423"; }
 
+/* line 278, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-empire:before {
   content: "\f1d1"; }
 
+/* line 279, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-envelope:before {
   content: "\f0e0"; }
 
+/* line 280, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-envelope-open:before {
   content: "\f2b6"; }
 
+/* line 281, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-envelope-square:before {
   content: "\f199"; }
 
+/* line 282, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-envira:before {
   content: "\f299"; }
 
+/* line 283, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-eraser:before {
   content: "\f12d"; }
 
+/* line 284, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-erlang:before {
   content: "\f39d"; }
 
+/* line 285, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ethereum:before {
   content: "\f42e"; }
 
+/* line 286, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-etsy:before {
   content: "\f2d7"; }
 
+/* line 287, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-euro-sign:before {
   content: "\f153"; }
 
+/* line 288, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-exchange-alt:before {
   content: "\f362"; }
 
+/* line 289, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-exclamation:before {
   content: "\f12a"; }
 
+/* line 290, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-exclamation-circle:before {
   content: "\f06a"; }
 
+/* line 291, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-exclamation-triangle:before {
   content: "\f071"; }
 
+/* line 292, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-expand:before {
   content: "\f065"; }
 
+/* line 293, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-expand-arrows-alt:before {
   content: "\f31e"; }
 
+/* line 294, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-expeditedssl:before {
   content: "\f23e"; }
 
+/* line 295, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-external-link-alt:before {
   content: "\f35d"; }
 
+/* line 296, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-external-link-square-alt:before {
   content: "\f360"; }
 
+/* line 297, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-eye:before {
   content: "\f06e"; }
 
+/* line 298, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-eye-dropper:before {
   content: "\f1fb"; }
 
+/* line 299, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-eye-slash:before {
   content: "\f070"; }
 
+/* line 300, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-facebook:before {
   content: "\f09a"; }
 
+/* line 301, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-facebook-f:before {
   content: "\f39e"; }
 
+/* line 302, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-facebook-messenger:before {
   content: "\f39f"; }
 
+/* line 303, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-facebook-square:before {
   content: "\f082"; }
 
+/* line 304, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fast-backward:before {
   content: "\f049"; }
 
+/* line 305, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fast-forward:before {
   content: "\f050"; }
 
+/* line 306, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fax:before {
   content: "\f1ac"; }
 
+/* line 307, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-female:before {
   content: "\f182"; }
 
+/* line 308, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fighter-jet:before {
   content: "\f0fb"; }
 
+/* line 309, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file:before {
   content: "\f15b"; }
 
+/* line 310, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-alt:before {
   content: "\f15c"; }
 
+/* line 311, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-archive:before {
   content: "\f1c6"; }
 
+/* line 312, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-audio:before {
   content: "\f1c7"; }
 
+/* line 313, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-code:before {
   content: "\f1c9"; }
 
+/* line 314, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-excel:before {
   content: "\f1c3"; }
 
+/* line 315, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-image:before {
   content: "\f1c5"; }
 
+/* line 316, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-medical:before {
   content: "\f477"; }
 
+/* line 317, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-medical-alt:before {
   content: "\f478"; }
 
+/* line 318, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-pdf:before {
   content: "\f1c1"; }
 
+/* line 319, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-powerpoint:before {
   content: "\f1c4"; }
 
+/* line 320, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-video:before {
   content: "\f1c8"; }
 
+/* line 321, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-file-word:before {
   content: "\f1c2"; }
 
+/* line 322, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-film:before {
   content: "\f008"; }
 
+/* line 323, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-filter:before {
   content: "\f0b0"; }
 
+/* line 324, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fire:before {
   content: "\f06d"; }
 
+/* line 325, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fire-extinguisher:before {
   content: "\f134"; }
 
+/* line 326, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-firefox:before {
   content: "\f269"; }
 
+/* line 327, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-first-aid:before {
   content: "\f479"; }
 
+/* line 328, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-first-order:before {
   content: "\f2b0"; }
 
+/* line 329, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-first-order-alt:before {
   content: "\f50a"; }
 
+/* line 330, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-firstdraft:before {
   content: "\f3a1"; }
 
+/* line 331, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-flag:before {
   content: "\f024"; }
 
+/* line 332, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-flag-checkered:before {
   content: "\f11e"; }
 
+/* line 333, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-flask:before {
   content: "\f0c3"; }
 
+/* line 334, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-flickr:before {
   content: "\f16e"; }
 
+/* line 335, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-flipboard:before {
   content: "\f44d"; }
 
+/* line 336, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fly:before {
   content: "\f417"; }
 
+/* line 337, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-folder:before {
   content: "\f07b"; }
 
+/* line 338, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-folder-open:before {
   content: "\f07c"; }
 
+/* line 339, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-font:before {
   content: "\f031"; }
 
+/* line 340, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-font-awesome:before {
   content: "\f2b4"; }
 
+/* line 341, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-font-awesome-alt:before {
   content: "\f35c"; }
 
+/* line 342, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-font-awesome-flag:before {
   content: "\f425"; }
 
+/* line 343, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-font-awesome-logo-full:before {
   content: "\f4e6"; }
 
+/* line 344, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fonticons:before {
   content: "\f280"; }
 
+/* line 345, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fonticons-fi:before {
   content: "\f3a2"; }
 
+/* line 346, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-football-ball:before {
   content: "\f44e"; }
 
+/* line 347, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fort-awesome:before {
   content: "\f286"; }
 
+/* line 348, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fort-awesome-alt:before {
   content: "\f3a3"; }
 
+/* line 349, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-forumbee:before {
   content: "\f211"; }
 
+/* line 350, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-forward:before {
   content: "\f04e"; }
 
+/* line 351, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-foursquare:before {
   content: "\f180"; }
 
+/* line 352, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-free-code-camp:before {
   content: "\f2c5"; }
 
+/* line 353, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-freebsd:before {
   content: "\f3a4"; }
 
+/* line 354, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-frown:before {
   content: "\f119"; }
 
+/* line 355, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-fulcrum:before {
   content: "\f50b"; }
 
+/* line 356, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-futbol:before {
   content: "\f1e3"; }
 
+/* line 357, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-galactic-republic:before {
   content: "\f50c"; }
 
+/* line 358, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-galactic-senate:before {
   content: "\f50d"; }
 
+/* line 359, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gamepad:before {
   content: "\f11b"; }
 
+/* line 360, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gavel:before {
   content: "\f0e3"; }
 
+/* line 361, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gem:before {
   content: "\f3a5"; }
 
+/* line 362, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-genderless:before {
   content: "\f22d"; }
 
+/* line 363, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-get-pocket:before {
   content: "\f265"; }
 
+/* line 364, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gg:before {
   content: "\f260"; }
 
+/* line 365, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gg-circle:before {
   content: "\f261"; }
 
+/* line 366, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gift:before {
   content: "\f06b"; }
 
+/* line 367, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-git:before {
   content: "\f1d3"; }
 
+/* line 368, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-git-square:before {
   content: "\f1d2"; }
 
+/* line 369, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-github:before {
   content: "\f09b"; }
 
+/* line 370, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-github-alt:before {
   content: "\f113"; }
 
+/* line 371, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-github-square:before {
   content: "\f092"; }
 
+/* line 372, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gitkraken:before {
   content: "\f3a6"; }
 
+/* line 373, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gitlab:before {
   content: "\f296"; }
 
+/* line 374, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gitter:before {
   content: "\f426"; }
 
+/* line 375, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-glass-martini:before {
   content: "\f000"; }
 
+/* line 376, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-glide:before {
   content: "\f2a5"; }
 
+/* line 377, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-glide-g:before {
   content: "\f2a6"; }
 
+/* line 378, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-globe:before {
   content: "\f0ac"; }
 
+/* line 379, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gofore:before {
   content: "\f3a7"; }
 
+/* line 380, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-golf-ball:before {
   content: "\f450"; }
 
+/* line 381, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-goodreads:before {
   content: "\f3a8"; }
 
+/* line 382, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-goodreads-g:before {
   content: "\f3a9"; }
 
+/* line 383, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-google:before {
   content: "\f1a0"; }
 
+/* line 384, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-google-drive:before {
   content: "\f3aa"; }
 
+/* line 385, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-google-play:before {
   content: "\f3ab"; }
 
+/* line 386, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-google-plus:before {
   content: "\f2b3"; }
 
+/* line 387, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-google-plus-g:before {
   content: "\f0d5"; }
 
+/* line 388, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-google-plus-square:before {
   content: "\f0d4"; }
 
+/* line 389, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-google-wallet:before {
   content: "\f1ee"; }
 
+/* line 390, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-graduation-cap:before {
   content: "\f19d"; }
 
+/* line 391, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gratipay:before {
   content: "\f184"; }
 
+/* line 392, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-grav:before {
   content: "\f2d6"; }
 
+/* line 393, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gripfire:before {
   content: "\f3ac"; }
 
+/* line 394, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-grunt:before {
   content: "\f3ad"; }
 
+/* line 395, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-gulp:before {
   content: "\f3ae"; }
 
+/* line 396, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-h-square:before {
   content: "\f0fd"; }
 
+/* line 397, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hacker-news:before {
   content: "\f1d4"; }
 
+/* line 398, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hacker-news-square:before {
   content: "\f3af"; }
 
+/* line 399, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-holding:before {
   content: "\f4bd"; }
 
+/* line 400, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-holding-heart:before {
   content: "\f4be"; }
 
+/* line 401, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-holding-usd:before {
   content: "\f4c0"; }
 
+/* line 402, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-lizard:before {
   content: "\f258"; }
 
+/* line 403, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-paper:before {
   content: "\f256"; }
 
+/* line 404, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-peace:before {
   content: "\f25b"; }
 
+/* line 405, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-point-down:before {
   content: "\f0a7"; }
 
+/* line 406, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-point-left:before {
   content: "\f0a5"; }
 
+/* line 407, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-point-right:before {
   content: "\f0a4"; }
 
+/* line 408, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-point-up:before {
   content: "\f0a6"; }
 
+/* line 409, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-pointer:before {
   content: "\f25a"; }
 
+/* line 410, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-rock:before {
   content: "\f255"; }
 
+/* line 411, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-scissors:before {
   content: "\f257"; }
 
+/* line 412, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hand-spock:before {
   content: "\f259"; }
 
+/* line 413, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hands:before {
   content: "\f4c2"; }
 
+/* line 414, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hands-helping:before {
   content: "\f4c4"; }
 
+/* line 415, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-handshake:before {
   content: "\f2b5"; }
 
+/* line 416, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hashtag:before {
   content: "\f292"; }
 
+/* line 417, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hdd:before {
   content: "\f0a0"; }
 
+/* line 418, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-heading:before {
   content: "\f1dc"; }
 
+/* line 419, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-headphones:before {
   content: "\f025"; }
 
+/* line 420, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-heart:before {
   content: "\f004"; }
 
+/* line 421, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-heartbeat:before {
   content: "\f21e"; }
 
+/* line 422, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hips:before {
   content: "\f452"; }
 
+/* line 423, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hire-a-helper:before {
   content: "\f3b0"; }
 
+/* line 424, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-history:before {
   content: "\f1da"; }
 
+/* line 425, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hockey-puck:before {
   content: "\f453"; }
 
+/* line 426, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-home:before {
   content: "\f015"; }
 
+/* line 427, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hooli:before {
   content: "\f427"; }
 
+/* line 428, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hospital:before {
   content: "\f0f8"; }
 
+/* line 429, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hospital-alt:before {
   content: "\f47d"; }
 
+/* line 430, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hospital-symbol:before {
   content: "\f47e"; }
 
+/* line 431, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hotjar:before {
   content: "\f3b1"; }
 
+/* line 432, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hourglass:before {
   content: "\f254"; }
 
+/* line 433, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hourglass-end:before {
   content: "\f253"; }
 
+/* line 434, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hourglass-half:before {
   content: "\f252"; }
 
+/* line 435, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hourglass-start:before {
   content: "\f251"; }
 
+/* line 436, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-houzz:before {
   content: "\f27c"; }
 
+/* line 437, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-html5:before {
   content: "\f13b"; }
 
+/* line 438, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-hubspot:before {
   content: "\f3b2"; }
 
+/* line 439, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-i-cursor:before {
   content: "\f246"; }
 
+/* line 440, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-id-badge:before {
   content: "\f2c1"; }
 
+/* line 441, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-id-card:before {
   content: "\f2c2"; }
 
+/* line 442, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-id-card-alt:before {
   content: "\f47f"; }
 
+/* line 443, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-image:before {
   content: "\f03e"; }
 
+/* line 444, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-images:before {
   content: "\f302"; }
 
+/* line 445, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-imdb:before {
   content: "\f2d8"; }
 
+/* line 446, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-inbox:before {
   content: "\f01c"; }
 
+/* line 447, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-indent:before {
   content: "\f03c"; }
 
+/* line 448, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-industry:before {
   content: "\f275"; }
 
+/* line 449, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-info:before {
   content: "\f129"; }
 
+/* line 450, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-info-circle:before {
   content: "\f05a"; }
 
+/* line 451, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-instagram:before {
   content: "\f16d"; }
 
+/* line 452, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-internet-explorer:before {
   content: "\f26b"; }
 
+/* line 453, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ioxhost:before {
   content: "\f208"; }
 
+/* line 454, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-italic:before {
   content: "\f033"; }
 
+/* line 455, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-itunes:before {
   content: "\f3b4"; }
 
+/* line 456, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-itunes-note:before {
   content: "\f3b5"; }
 
+/* line 457, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-java:before {
   content: "\f4e4"; }
 
+/* line 458, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-jedi-order:before {
   content: "\f50e"; }
 
+/* line 459, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-jenkins:before {
   content: "\f3b6"; }
 
+/* line 460, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-joget:before {
   content: "\f3b7"; }
 
+/* line 461, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-joomla:before {
   content: "\f1aa"; }
 
+/* line 462, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-js:before {
   content: "\f3b8"; }
 
+/* line 463, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-js-square:before {
   content: "\f3b9"; }
 
+/* line 464, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-jsfiddle:before {
   content: "\f1cc"; }
 
+/* line 465, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-key:before {
   content: "\f084"; }
 
+/* line 466, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-keybase:before {
   content: "\f4f5"; }
 
+/* line 467, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-keyboard:before {
   content: "\f11c"; }
 
+/* line 468, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-keycdn:before {
   content: "\f3ba"; }
 
+/* line 469, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-kickstarter:before {
   content: "\f3bb"; }
 
+/* line 470, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-kickstarter-k:before {
   content: "\f3bc"; }
 
+/* line 471, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-korvue:before {
   content: "\f42f"; }
 
+/* line 472, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-language:before {
   content: "\f1ab"; }
 
+/* line 473, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-laptop:before {
   content: "\f109"; }
 
+/* line 474, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-laravel:before {
   content: "\f3bd"; }
 
+/* line 475, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lastfm:before {
   content: "\f202"; }
 
+/* line 476, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lastfm-square:before {
   content: "\f203"; }
 
+/* line 477, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-leaf:before {
   content: "\f06c"; }
 
+/* line 478, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-leanpub:before {
   content: "\f212"; }
 
+/* line 479, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lemon:before {
   content: "\f094"; }
 
+/* line 480, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-less:before {
   content: "\f41d"; }
 
+/* line 481, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-level-down-alt:before {
   content: "\f3be"; }
 
+/* line 482, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-level-up-alt:before {
   content: "\f3bf"; }
 
+/* line 483, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-life-ring:before {
   content: "\f1cd"; }
 
+/* line 484, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lightbulb:before {
   content: "\f0eb"; }
 
+/* line 485, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-line:before {
   content: "\f3c0"; }
 
+/* line 486, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-link:before {
   content: "\f0c1"; }
 
+/* line 487, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-linkedin:before {
   content: "\f08c"; }
 
+/* line 488, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-linkedin-in:before {
   content: "\f0e1"; }
 
+/* line 489, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-linode:before {
   content: "\f2b8"; }
 
+/* line 490, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-linux:before {
   content: "\f17c"; }
 
+/* line 491, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lira-sign:before {
   content: "\f195"; }
 
+/* line 492, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-list:before {
   content: "\f03a"; }
 
+/* line 493, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-list-alt:before {
   content: "\f022"; }
 
+/* line 494, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-list-ol:before {
   content: "\f0cb"; }
 
+/* line 495, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-list-ul:before {
   content: "\f0ca"; }
 
+/* line 496, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-location-arrow:before {
   content: "\f124"; }
 
+/* line 497, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lock:before {
   content: "\f023"; }
 
+/* line 498, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lock-open:before {
   content: "\f3c1"; }
 
+/* line 499, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-long-arrow-alt-down:before {
   content: "\f309"; }
 
+/* line 500, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-long-arrow-alt-left:before {
   content: "\f30a"; }
 
+/* line 501, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-long-arrow-alt-right:before {
   content: "\f30b"; }
 
+/* line 502, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-long-arrow-alt-up:before {
   content: "\f30c"; }
 
+/* line 503, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-low-vision:before {
   content: "\f2a8"; }
 
+/* line 504, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-lyft:before {
   content: "\f3c3"; }
 
+/* line 505, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-magento:before {
   content: "\f3c4"; }
 
+/* line 506, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-magic:before {
   content: "\f0d0"; }
 
+/* line 507, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-magnet:before {
   content: "\f076"; }
 
+/* line 508, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-male:before {
   content: "\f183"; }
 
+/* line 509, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mandalorian:before {
   content: "\f50f"; }
 
+/* line 510, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-map:before {
   content: "\f279"; }
 
+/* line 511, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-map-marker:before {
   content: "\f041"; }
 
+/* line 512, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-map-marker-alt:before {
   content: "\f3c5"; }
 
+/* line 513, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-map-pin:before {
   content: "\f276"; }
 
+/* line 514, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-map-signs:before {
   content: "\f277"; }
 
+/* line 515, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mars:before {
   content: "\f222"; }
 
+/* line 516, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mars-double:before {
   content: "\f227"; }
 
+/* line 517, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mars-stroke:before {
   content: "\f229"; }
 
+/* line 518, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mars-stroke-h:before {
   content: "\f22b"; }
 
+/* line 519, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mars-stroke-v:before {
   content: "\f22a"; }
 
+/* line 520, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mastodon:before {
   content: "\f4f6"; }
 
+/* line 521, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-maxcdn:before {
   content: "\f136"; }
 
+/* line 522, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-medapps:before {
   content: "\f3c6"; }
 
+/* line 523, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-medium:before {
   content: "\f23a"; }
 
+/* line 524, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-medium-m:before {
   content: "\f3c7"; }
 
+/* line 525, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-medkit:before {
   content: "\f0fa"; }
 
+/* line 526, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-medrt:before {
   content: "\f3c8"; }
 
+/* line 527, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-meetup:before {
   content: "\f2e0"; }
 
+/* line 528, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-meh:before {
   content: "\f11a"; }
 
+/* line 529, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mercury:before {
   content: "\f223"; }
 
+/* line 530, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-microchip:before {
   content: "\f2db"; }
 
+/* line 531, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-microphone:before {
   content: "\f130"; }
 
+/* line 532, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-microphone-slash:before {
   content: "\f131"; }
 
+/* line 533, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-microsoft:before {
   content: "\f3ca"; }
 
+/* line 534, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-minus:before {
   content: "\f068"; }
 
+/* line 535, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-minus-circle:before {
   content: "\f056"; }
 
+/* line 536, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-minus-square:before {
   content: "\f146"; }
 
+/* line 537, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mix:before {
   content: "\f3cb"; }
 
+/* line 538, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mixcloud:before {
   content: "\f289"; }
 
+/* line 539, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mizuni:before {
   content: "\f3cc"; }
 
+/* line 540, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mobile:before {
   content: "\f10b"; }
 
+/* line 541, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mobile-alt:before {
   content: "\f3cd"; }
 
+/* line 542, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-modx:before {
   content: "\f285"; }
 
+/* line 543, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-monero:before {
   content: "\f3d0"; }
 
+/* line 544, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-money-bill-alt:before {
   content: "\f3d1"; }
 
+/* line 545, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-moon:before {
   content: "\f186"; }
 
+/* line 546, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-motorcycle:before {
   content: "\f21c"; }
 
+/* line 547, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-mouse-pointer:before {
   content: "\f245"; }
 
+/* line 548, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-music:before {
   content: "\f001"; }
 
+/* line 549, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-napster:before {
   content: "\f3d2"; }
 
+/* line 550, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-neuter:before {
   content: "\f22c"; }
 
+/* line 551, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-newspaper:before {
   content: "\f1ea"; }
 
+/* line 552, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-nintendo-switch:before {
   content: "\f418"; }
 
+/* line 553, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-node:before {
   content: "\f419"; }
 
+/* line 554, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-node-js:before {
   content: "\f3d3"; }
 
+/* line 555, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-notes-medical:before {
   content: "\f481"; }
 
+/* line 556, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-npm:before {
   content: "\f3d4"; }
 
+/* line 557, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ns8:before {
   content: "\f3d5"; }
 
+/* line 558, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-nutritionix:before {
   content: "\f3d6"; }
 
+/* line 559, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-object-group:before {
   content: "\f247"; }
 
+/* line 560, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-object-ungroup:before {
   content: "\f248"; }
 
+/* line 561, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-odnoklassniki:before {
   content: "\f263"; }
 
+/* line 562, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-odnoklassniki-square:before {
   content: "\f264"; }
 
+/* line 563, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-old-republic:before {
   content: "\f510"; }
 
+/* line 564, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-opencart:before {
   content: "\f23d"; }
 
+/* line 565, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-openid:before {
   content: "\f19b"; }
 
+/* line 566, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-opera:before {
   content: "\f26a"; }
 
+/* line 567, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-optin-monster:before {
   content: "\f23c"; }
 
+/* line 568, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-osi:before {
   content: "\f41a"; }
 
+/* line 569, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-outdent:before {
   content: "\f03b"; }
 
+/* line 570, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-page4:before {
   content: "\f3d7"; }
 
+/* line 571, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pagelines:before {
   content: "\f18c"; }
 
+/* line 572, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-paint-brush:before {
   content: "\f1fc"; }
 
+/* line 573, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-palfed:before {
   content: "\f3d8"; }
 
+/* line 574, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pallet:before {
   content: "\f482"; }
 
+/* line 575, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-paper-plane:before {
   content: "\f1d8"; }
 
+/* line 576, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-paperclip:before {
   content: "\f0c6"; }
 
+/* line 577, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-parachute-box:before {
   content: "\f4cd"; }
 
+/* line 578, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-paragraph:before {
   content: "\f1dd"; }
 
+/* line 579, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-paste:before {
   content: "\f0ea"; }
 
+/* line 580, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-patreon:before {
   content: "\f3d9"; }
 
+/* line 581, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pause:before {
   content: "\f04c"; }
 
+/* line 582, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pause-circle:before {
   content: "\f28b"; }
 
+/* line 583, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-paw:before {
   content: "\f1b0"; }
 
+/* line 584, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-paypal:before {
   content: "\f1ed"; }
 
+/* line 585, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pen-square:before {
   content: "\f14b"; }
 
+/* line 586, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pencil-alt:before {
   content: "\f303"; }
 
+/* line 587, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-people-carry:before {
   content: "\f4ce"; }
 
+/* line 588, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-percent:before {
   content: "\f295"; }
 
+/* line 589, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-periscope:before {
   content: "\f3da"; }
 
+/* line 590, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-phabricator:before {
   content: "\f3db"; }
 
+/* line 591, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-phoenix-framework:before {
   content: "\f3dc"; }
 
+/* line 592, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-phoenix-squadron:before {
   content: "\f511"; }
 
+/* line 593, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-phone:before {
   content: "\f095"; }
 
+/* line 594, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-phone-slash:before {
   content: "\f3dd"; }
 
+/* line 595, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-phone-square:before {
   content: "\f098"; }
 
+/* line 596, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-phone-volume:before {
   content: "\f2a0"; }
 
+/* line 597, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-php:before {
   content: "\f457"; }
 
+/* line 598, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pied-piper:before {
   content: "\f2ae"; }
 
+/* line 599, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pied-piper-alt:before {
   content: "\f1a8"; }
 
+/* line 600, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pied-piper-hat:before {
   content: "\f4e5"; }
 
+/* line 601, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pied-piper-pp:before {
   content: "\f1a7"; }
 
+/* line 602, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-piggy-bank:before {
   content: "\f4d3"; }
 
+/* line 603, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pills:before {
   content: "\f484"; }
 
+/* line 604, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pinterest:before {
   content: "\f0d2"; }
 
+/* line 605, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pinterest-p:before {
   content: "\f231"; }
 
+/* line 606, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pinterest-square:before {
   content: "\f0d3"; }
 
+/* line 607, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-plane:before {
   content: "\f072"; }
 
+/* line 608, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-play:before {
   content: "\f04b"; }
 
+/* line 609, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-play-circle:before {
   content: "\f144"; }
 
+/* line 610, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-playstation:before {
   content: "\f3df"; }
 
+/* line 611, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-plug:before {
   content: "\f1e6"; }
 
+/* line 612, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-plus:before {
   content: "\f067"; }
 
+/* line 613, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-plus-circle:before {
   content: "\f055"; }
 
+/* line 614, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-plus-square:before {
   content: "\f0fe"; }
 
+/* line 615, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-podcast:before {
   content: "\f2ce"; }
 
+/* line 616, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-poo:before {
   content: "\f2fe"; }
 
+/* line 617, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-portrait:before {
   content: "\f3e0"; }
 
+/* line 618, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pound-sign:before {
   content: "\f154"; }
 
+/* line 619, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-power-off:before {
   content: "\f011"; }
 
+/* line 620, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-prescription-bottle:before {
   content: "\f485"; }
 
+/* line 621, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-prescription-bottle-alt:before {
   content: "\f486"; }
 
+/* line 622, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-print:before {
   content: "\f02f"; }
 
+/* line 623, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-procedures:before {
   content: "\f487"; }
 
+/* line 624, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-product-hunt:before {
   content: "\f288"; }
 
+/* line 625, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-pushed:before {
   content: "\f3e1"; }
 
+/* line 626, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-puzzle-piece:before {
   content: "\f12e"; }
 
+/* line 627, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-python:before {
   content: "\f3e2"; }
 
+/* line 628, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-qq:before {
   content: "\f1d6"; }
 
+/* line 629, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-qrcode:before {
   content: "\f029"; }
 
+/* line 630, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-question:before {
   content: "\f128"; }
 
+/* line 631, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-question-circle:before {
   content: "\f059"; }
 
+/* line 632, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-quidditch:before {
   content: "\f458"; }
 
+/* line 633, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-quinscape:before {
   content: "\f459"; }
 
+/* line 634, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-quora:before {
   content: "\f2c4"; }
 
+/* line 635, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-quote-left:before {
   content: "\f10d"; }
 
+/* line 636, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-quote-right:before {
   content: "\f10e"; }
 
+/* line 637, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-r-project:before {
   content: "\f4f7"; }
 
+/* line 638, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-random:before {
   content: "\f074"; }
 
+/* line 639, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ravelry:before {
   content: "\f2d9"; }
 
+/* line 640, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-react:before {
   content: "\f41b"; }
 
+/* line 641, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-readme:before {
   content: "\f4d5"; }
 
+/* line 642, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rebel:before {
   content: "\f1d0"; }
 
+/* line 643, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-recycle:before {
   content: "\f1b8"; }
 
+/* line 644, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-red-river:before {
   content: "\f3e3"; }
 
+/* line 645, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-reddit:before {
   content: "\f1a1"; }
 
+/* line 646, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-reddit-alien:before {
   content: "\f281"; }
 
+/* line 647, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-reddit-square:before {
   content: "\f1a2"; }
 
+/* line 648, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-redo:before {
   content: "\f01e"; }
 
+/* line 649, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-redo-alt:before {
   content: "\f2f9"; }
 
+/* line 650, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-registered:before {
   content: "\f25d"; }
 
+/* line 651, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rendact:before {
   content: "\f3e4"; }
 
+/* line 652, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-renren:before {
   content: "\f18b"; }
 
+/* line 653, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-reply:before {
   content: "\f3e5"; }
 
+/* line 654, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-reply-all:before {
   content: "\f122"; }
 
+/* line 655, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-replyd:before {
   content: "\f3e6"; }
 
+/* line 656, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-researchgate:before {
   content: "\f4f8"; }
 
+/* line 657, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-resolving:before {
   content: "\f3e7"; }
 
+/* line 658, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-retweet:before {
   content: "\f079"; }
 
+/* line 659, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ribbon:before {
   content: "\f4d6"; }
 
+/* line 660, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-road:before {
   content: "\f018"; }
 
+/* line 661, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rocket:before {
   content: "\f135"; }
 
+/* line 662, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rocketchat:before {
   content: "\f3e8"; }
 
+/* line 663, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rockrms:before {
   content: "\f3e9"; }
 
+/* line 664, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rss:before {
   content: "\f09e"; }
 
+/* line 665, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rss-square:before {
   content: "\f143"; }
 
+/* line 666, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ruble-sign:before {
   content: "\f158"; }
 
+/* line 667, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-rupee-sign:before {
   content: "\f156"; }
 
+/* line 668, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-safari:before {
   content: "\f267"; }
 
+/* line 669, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sass:before {
   content: "\f41e"; }
 
+/* line 670, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-save:before {
   content: "\f0c7"; }
 
+/* line 671, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-schlix:before {
   content: "\f3ea"; }
 
+/* line 672, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-scribd:before {
   content: "\f28a"; }
 
+/* line 673, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-search:before {
   content: "\f002"; }
 
+/* line 674, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-search-minus:before {
   content: "\f010"; }
 
+/* line 675, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-search-plus:before {
   content: "\f00e"; }
 
+/* line 676, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-searchengin:before {
   content: "\f3eb"; }
 
+/* line 677, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-seedling:before {
   content: "\f4d8"; }
 
+/* line 678, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sellcast:before {
   content: "\f2da"; }
 
+/* line 679, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sellsy:before {
   content: "\f213"; }
 
+/* line 680, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-server:before {
   content: "\f233"; }
 
+/* line 681, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-servicestack:before {
   content: "\f3ec"; }
 
+/* line 682, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-share:before {
   content: "\f064"; }
 
+/* line 683, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-share-alt:before {
   content: "\f1e0"; }
 
+/* line 684, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-share-alt-square:before {
   content: "\f1e1"; }
 
+/* line 685, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-share-square:before {
   content: "\f14d"; }
 
+/* line 686, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shekel-sign:before {
   content: "\f20b"; }
 
+/* line 687, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shield-alt:before {
   content: "\f3ed"; }
 
+/* line 688, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ship:before {
   content: "\f21a"; }
 
+/* line 689, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shipping-fast:before {
   content: "\f48b"; }
 
+/* line 690, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shirtsinbulk:before {
   content: "\f214"; }
 
+/* line 691, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shopping-bag:before {
   content: "\f290"; }
 
+/* line 692, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shopping-basket:before {
   content: "\f291"; }
 
+/* line 693, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shopping-cart:before {
   content: "\f07a"; }
 
+/* line 694, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-shower:before {
   content: "\f2cc"; }
 
+/* line 695, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sign:before {
   content: "\f4d9"; }
 
+/* line 696, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sign-in-alt:before {
   content: "\f2f6"; }
 
+/* line 697, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sign-language:before {
   content: "\f2a7"; }
 
+/* line 698, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sign-out-alt:before {
   content: "\f2f5"; }
 
+/* line 699, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-signal:before {
   content: "\f012"; }
 
+/* line 700, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-simplybuilt:before {
   content: "\f215"; }
 
+/* line 701, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sistrix:before {
   content: "\f3ee"; }
 
+/* line 702, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sitemap:before {
   content: "\f0e8"; }
 
+/* line 703, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sith:before {
   content: "\f512"; }
 
+/* line 704, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-skyatlas:before {
   content: "\f216"; }
 
+/* line 705, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-skype:before {
   content: "\f17e"; }
 
+/* line 706, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-slack:before {
   content: "\f198"; }
 
+/* line 707, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-slack-hash:before {
   content: "\f3ef"; }
 
+/* line 708, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sliders-h:before {
   content: "\f1de"; }
 
+/* line 709, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-slideshare:before {
   content: "\f1e7"; }
 
+/* line 710, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-smile:before {
   content: "\f118"; }
 
+/* line 711, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-smoking:before {
   content: "\f48d"; }
 
+/* line 712, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-snapchat:before {
   content: "\f2ab"; }
 
+/* line 713, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-snapchat-ghost:before {
   content: "\f2ac"; }
 
+/* line 714, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-snapchat-square:before {
   content: "\f2ad"; }
 
+/* line 715, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-snowflake:before {
   content: "\f2dc"; }
 
+/* line 716, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort:before {
   content: "\f0dc"; }
 
+/* line 717, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-alpha-down:before {
   content: "\f15d"; }
 
+/* line 718, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-alpha-up:before {
   content: "\f15e"; }
 
+/* line 719, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-amount-down:before {
   content: "\f160"; }
 
+/* line 720, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-amount-up:before {
   content: "\f161"; }
 
+/* line 721, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-down:before {
   content: "\f0dd"; }
 
+/* line 722, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-numeric-down:before {
   content: "\f162"; }
 
+/* line 723, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-numeric-up:before {
   content: "\f163"; }
 
+/* line 724, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sort-up:before {
   content: "\f0de"; }
 
+/* line 725, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-soundcloud:before {
   content: "\f1be"; }
 
+/* line 726, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-space-shuttle:before {
   content: "\f197"; }
 
+/* line 727, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-speakap:before {
   content: "\f3f3"; }
 
+/* line 728, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-spinner:before {
   content: "\f110"; }
 
+/* line 729, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-spotify:before {
   content: "\f1bc"; }
 
+/* line 730, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-square:before {
   content: "\f0c8"; }
 
+/* line 731, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-square-full:before {
   content: "\f45c"; }
 
+/* line 732, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stack-exchange:before {
   content: "\f18d"; }
 
+/* line 733, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stack-overflow:before {
   content: "\f16c"; }
 
+/* line 734, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-star:before {
   content: "\f005"; }
 
+/* line 735, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-star-half:before {
   content: "\f089"; }
 
+/* line 736, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-staylinked:before {
   content: "\f3f5"; }
 
+/* line 737, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-steam:before {
   content: "\f1b6"; }
 
+/* line 738, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-steam-square:before {
   content: "\f1b7"; }
 
+/* line 739, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-steam-symbol:before {
   content: "\f3f6"; }
 
+/* line 740, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-step-backward:before {
   content: "\f048"; }
 
+/* line 741, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-step-forward:before {
   content: "\f051"; }
 
+/* line 742, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stethoscope:before {
   content: "\f0f1"; }
 
+/* line 743, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sticker-mule:before {
   content: "\f3f7"; }
 
+/* line 744, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sticky-note:before {
   content: "\f249"; }
 
+/* line 745, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stop:before {
   content: "\f04d"; }
 
+/* line 746, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stop-circle:before {
   content: "\f28d"; }
 
+/* line 747, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stopwatch:before {
   content: "\f2f2"; }
 
+/* line 748, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-strava:before {
   content: "\f428"; }
 
+/* line 749, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-street-view:before {
   content: "\f21d"; }
 
+/* line 750, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-strikethrough:before {
   content: "\f0cc"; }
 
+/* line 751, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stripe:before {
   content: "\f429"; }
 
+/* line 752, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stripe-s:before {
   content: "\f42a"; }
 
+/* line 753, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-studiovinari:before {
   content: "\f3f8"; }
 
+/* line 754, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stumbleupon:before {
   content: "\f1a4"; }
 
+/* line 755, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-stumbleupon-circle:before {
   content: "\f1a3"; }
 
+/* line 756, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-subscript:before {
   content: "\f12c"; }
 
+/* line 757, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-subway:before {
   content: "\f239"; }
 
+/* line 758, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-suitcase:before {
   content: "\f0f2"; }
 
+/* line 759, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sun:before {
   content: "\f185"; }
 
+/* line 760, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-superpowers:before {
   content: "\f2dd"; }
 
+/* line 761, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-superscript:before {
   content: "\f12b"; }
 
+/* line 762, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-supple:before {
   content: "\f3f9"; }
 
+/* line 763, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sync:before {
   content: "\f021"; }
 
+/* line 764, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-sync-alt:before {
   content: "\f2f1"; }
 
+/* line 765, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-syringe:before {
   content: "\f48e"; }
 
+/* line 766, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-table:before {
   content: "\f0ce"; }
 
+/* line 767, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-table-tennis:before {
   content: "\f45d"; }
 
+/* line 768, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tablet:before {
   content: "\f10a"; }
 
+/* line 769, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tablet-alt:before {
   content: "\f3fa"; }
 
+/* line 770, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tablets:before {
   content: "\f490"; }
 
+/* line 771, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tachometer-alt:before {
   content: "\f3fd"; }
 
+/* line 772, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tag:before {
   content: "\f02b"; }
 
+/* line 773, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tags:before {
   content: "\f02c"; }
 
+/* line 774, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tape:before {
   content: "\f4db"; }
 
+/* line 775, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tasks:before {
   content: "\f0ae"; }
 
+/* line 776, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-taxi:before {
   content: "\f1ba"; }
 
+/* line 777, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-teamspeak:before {
   content: "\f4f9"; }
 
+/* line 778, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-telegram:before {
   content: "\f2c6"; }
 
+/* line 779, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-telegram-plane:before {
   content: "\f3fe"; }
 
+/* line 780, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tencent-weibo:before {
   content: "\f1d5"; }
 
+/* line 781, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-terminal:before {
   content: "\f120"; }
 
+/* line 782, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-text-height:before {
   content: "\f034"; }
 
+/* line 783, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-text-width:before {
   content: "\f035"; }
 
+/* line 784, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-th:before {
   content: "\f00a"; }
 
+/* line 785, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-th-large:before {
   content: "\f009"; }
 
+/* line 786, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-th-list:before {
   content: "\f00b"; }
 
+/* line 787, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-themeisle:before {
   content: "\f2b2"; }
 
+/* line 788, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thermometer:before {
   content: "\f491"; }
 
+/* line 789, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thermometer-empty:before {
   content: "\f2cb"; }
 
+/* line 790, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thermometer-full:before {
   content: "\f2c7"; }
 
+/* line 791, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thermometer-half:before {
   content: "\f2c9"; }
 
+/* line 792, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thermometer-quarter:before {
   content: "\f2ca"; }
 
+/* line 793, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thermometer-three-quarters:before {
   content: "\f2c8"; }
 
+/* line 794, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thumbs-down:before {
   content: "\f165"; }
 
+/* line 795, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thumbs-up:before {
   content: "\f164"; }
 
+/* line 796, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-thumbtack:before {
   content: "\f08d"; }
 
+/* line 797, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ticket-alt:before {
   content: "\f3ff"; }
 
+/* line 798, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-times:before {
   content: "\f00d"; }
 
+/* line 799, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-times-circle:before {
   content: "\f057"; }
 
+/* line 800, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tint:before {
   content: "\f043"; }
 
+/* line 801, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-toggle-off:before {
   content: "\f204"; }
 
+/* line 802, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-toggle-on:before {
   content: "\f205"; }
 
+/* line 803, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-trade-federation:before {
   content: "\f513"; }
 
+/* line 804, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-trademark:before {
   content: "\f25c"; }
 
+/* line 805, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-train:before {
   content: "\f238"; }
 
+/* line 806, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-transgender:before {
   content: "\f224"; }
 
+/* line 807, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-transgender-alt:before {
   content: "\f225"; }
 
+/* line 808, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-trash:before {
   content: "\f1f8"; }
 
+/* line 809, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-trash-alt:before {
   content: "\f2ed"; }
 
+/* line 810, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tree:before {
   content: "\f1bb"; }
 
+/* line 811, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-trello:before {
   content: "\f181"; }
 
+/* line 812, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tripadvisor:before {
   content: "\f262"; }
 
+/* line 813, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-trophy:before {
   content: "\f091"; }
 
+/* line 814, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-truck:before {
   content: "\f0d1"; }
 
+/* line 815, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-truck-loading:before {
   content: "\f4de"; }
 
+/* line 816, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-truck-moving:before {
   content: "\f4df"; }
 
+/* line 817, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tty:before {
   content: "\f1e4"; }
 
+/* line 818, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tumblr:before {
   content: "\f173"; }
 
+/* line 819, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tumblr-square:before {
   content: "\f174"; }
 
+/* line 820, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-tv:before {
   content: "\f26c"; }
 
+/* line 821, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-twitch:before {
   content: "\f1e8"; }
 
+/* line 822, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-twitter:before {
   content: "\f099"; }
 
+/* line 823, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-twitter-square:before {
   content: "\f081"; }
 
+/* line 824, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-typo3:before {
   content: "\f42b"; }
 
+/* line 825, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-uber:before {
   content: "\f402"; }
 
+/* line 826, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-uikit:before {
   content: "\f403"; }
 
+/* line 827, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-umbrella:before {
   content: "\f0e9"; }
 
+/* line 828, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-underline:before {
   content: "\f0cd"; }
 
+/* line 829, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-undo:before {
   content: "\f0e2"; }
 
+/* line 830, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-undo-alt:before {
   content: "\f2ea"; }
 
+/* line 831, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-uniregistry:before {
   content: "\f404"; }
 
+/* line 832, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-universal-access:before {
   content: "\f29a"; }
 
+/* line 833, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-university:before {
   content: "\f19c"; }
 
+/* line 834, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-unlink:before {
   content: "\f127"; }
 
+/* line 835, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-unlock:before {
   content: "\f09c"; }
 
+/* line 836, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-unlock-alt:before {
   content: "\f13e"; }
 
+/* line 837, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-untappd:before {
   content: "\f405"; }
 
+/* line 838, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-upload:before {
   content: "\f093"; }
 
+/* line 839, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-usb:before {
   content: "\f287"; }
 
+/* line 840, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user:before {
   content: "\f007"; }
 
+/* line 841, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-alt:before {
   content: "\f406"; }
 
+/* line 842, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-alt-slash:before {
   content: "\f4fa"; }
 
+/* line 843, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-astronaut:before {
   content: "\f4fb"; }
 
+/* line 844, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-check:before {
   content: "\f4fc"; }
 
+/* line 845, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-circle:before {
   content: "\f2bd"; }
 
+/* line 846, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-clock:before {
   content: "\f4fd"; }
 
+/* line 847, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-cog:before {
   content: "\f4fe"; }
 
+/* line 848, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-edit:before {
   content: "\f4ff"; }
 
+/* line 849, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-friends:before {
   content: "\f500"; }
 
+/* line 850, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-graduate:before {
   content: "\f501"; }
 
+/* line 851, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-lock:before {
   content: "\f502"; }
 
+/* line 852, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-md:before {
   content: "\f0f0"; }
 
+/* line 853, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-minus:before {
   content: "\f503"; }
 
+/* line 854, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-ninja:before {
   content: "\f504"; }
 
+/* line 855, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-plus:before {
   content: "\f234"; }
 
+/* line 856, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-secret:before {
   content: "\f21b"; }
 
+/* line 857, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-shield:before {
   content: "\f505"; }
 
+/* line 858, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-slash:before {
   content: "\f506"; }
 
+/* line 859, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-tag:before {
   content: "\f507"; }
 
+/* line 860, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-tie:before {
   content: "\f508"; }
 
+/* line 861, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-user-times:before {
   content: "\f235"; }
 
+/* line 862, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-users:before {
   content: "\f0c0"; }
 
+/* line 863, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-users-cog:before {
   content: "\f509"; }
 
+/* line 864, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-ussunnah:before {
   content: "\f407"; }
 
+/* line 865, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-utensil-spoon:before {
   content: "\f2e5"; }
 
+/* line 866, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-utensils:before {
   content: "\f2e7"; }
 
+/* line 867, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vaadin:before {
   content: "\f408"; }
 
+/* line 868, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-venus:before {
   content: "\f221"; }
 
+/* line 869, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-venus-double:before {
   content: "\f226"; }
 
+/* line 870, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-venus-mars:before {
   content: "\f228"; }
 
+/* line 871, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-viacoin:before {
   content: "\f237"; }
 
+/* line 872, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-viadeo:before {
   content: "\f2a9"; }
 
+/* line 873, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-viadeo-square:before {
   content: "\f2aa"; }
 
+/* line 874, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vial:before {
   content: "\f492"; }
 
+/* line 875, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vials:before {
   content: "\f493"; }
 
+/* line 876, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-viber:before {
   content: "\f409"; }
 
+/* line 877, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-video:before {
   content: "\f03d"; }
 
+/* line 878, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-video-slash:before {
   content: "\f4e2"; }
 
+/* line 879, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vimeo:before {
   content: "\f40a"; }
 
+/* line 880, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vimeo-square:before {
   content: "\f194"; }
 
+/* line 881, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vimeo-v:before {
   content: "\f27d"; }
 
+/* line 882, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vine:before {
   content: "\f1ca"; }
 
+/* line 883, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vk:before {
   content: "\f189"; }
 
+/* line 884, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vnv:before {
   content: "\f40b"; }
 
+/* line 885, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-volleyball-ball:before {
   content: "\f45f"; }
 
+/* line 886, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-volume-down:before {
   content: "\f027"; }
 
+/* line 887, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-volume-off:before {
   content: "\f026"; }
 
+/* line 888, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-volume-up:before {
   content: "\f028"; }
 
+/* line 889, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-vuejs:before {
   content: "\f41f"; }
 
+/* line 890, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-warehouse:before {
   content: "\f494"; }
 
+/* line 891, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-weibo:before {
   content: "\f18a"; }
 
+/* line 892, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-weight:before {
   content: "\f496"; }
 
+/* line 893, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-weixin:before {
   content: "\f1d7"; }
 
+/* line 894, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-whatsapp:before {
   content: "\f232"; }
 
+/* line 895, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-whatsapp-square:before {
   content: "\f40c"; }
 
+/* line 896, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wheelchair:before {
   content: "\f193"; }
 
+/* line 897, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-whmcs:before {
   content: "\f40d"; }
 
+/* line 898, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wifi:before {
   content: "\f1eb"; }
 
+/* line 899, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wikipedia-w:before {
   content: "\f266"; }
 
+/* line 900, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-window-close:before {
   content: "\f410"; }
 
+/* line 901, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-window-maximize:before {
   content: "\f2d0"; }
 
+/* line 902, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-window-minimize:before {
   content: "\f2d1"; }
 
+/* line 903, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-window-restore:before {
   content: "\f2d2"; }
 
+/* line 904, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-windows:before {
   content: "\f17a"; }
 
+/* line 905, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wine-glass:before {
   content: "\f4e3"; }
 
+/* line 906, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wolf-pack-battalion:before {
   content: "\f514"; }
 
+/* line 907, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-won-sign:before {
   content: "\f159"; }
 
+/* line 908, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wordpress:before {
   content: "\f19a"; }
 
+/* line 909, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wordpress-simple:before {
   content: "\f411"; }
 
+/* line 910, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wpbeginner:before {
   content: "\f297"; }
 
+/* line 911, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wpexplorer:before {
   content: "\f2de"; }
 
+/* line 912, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wpforms:before {
   content: "\f298"; }
 
+/* line 913, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-wrench:before {
   content: "\f0ad"; }
 
+/* line 914, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-x-ray:before {
   content: "\f497"; }
 
+/* line 915, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-xbox:before {
   content: "\f412"; }
 
+/* line 916, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-xing:before {
   content: "\f168"; }
 
+/* line 917, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-xing-square:before {
   content: "\f169"; }
 
+/* line 918, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-y-combinator:before {
   content: "\f23b"; }
 
+/* line 919, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-yahoo:before {
   content: "\f19e"; }
 
+/* line 920, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-yandex:before {
   content: "\f413"; }
 
+/* line 921, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-yandex-international:before {
   content: "\f414"; }
 
+/* line 922, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-yelp:before {
   content: "\f1e9"; }
 
+/* line 923, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-yen-sign:before {
   content: "\f157"; }
 
+/* line 924, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-yoast:before {
   content: "\f2b1"; }
 
+/* line 925, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-youtube:before {
   content: "\f167"; }
 
+/* line 926, E:/telenor/DT/src/assets/src/font-awesome/_icons.scss */
 .fa-youtube-square:before {
   content: "\f431"; }
 
+/* line 4, E:/telenor/DT/src/assets/src/font-awesome/_screen-reader.scss */
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -2949,6 +3910,7 @@ readers do not read off random characters that represent icons */
   position: absolute;
   width: 1px; }
 
+/* line 48, E:/telenor/DT/src/assets/src/font-awesome/_mixins.scss */
 .sr-only-focusable:active, .sr-only-focusable:focus {
   clip: auto;
   height: auto;
@@ -2968,6 +3930,7 @@ readers do not read off random characters that represent icons */
   src: url("../fonts/font-awesome/fa-regular-400.eot");
   src: url("../fonts/font-awesome/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fa-regular-400.woff2") format("woff2"), url("../fonts/font-awesome/fa-regular-400.woff") format("woff"), url("../fonts/font-awesome/fa-regular-400.ttf") format("truetype"), url("../fonts/font-awesome/fa-regular-400.svg#fontawesome") format("svg"); }
 
+/* line 19, E:/telenor/DT/src/assets/src/font-awesome/_fa-regular.scss */
 .far {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
@@ -2983,6 +3946,7 @@ readers do not read off random characters that represent icons */
   src: url("../fonts/font-awesome/fa-brands-400.eot");
   src: url("../fonts/font-awesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fa-brands-400.woff2") format("woff2"), url("../fonts/font-awesome/fa-brands-400.woff") format("woff"), url("../fonts/font-awesome/fa-brands-400.ttf") format("truetype"), url("../fonts/font-awesome/fa-brands-400.svg#fontawesome") format("svg"); }
 
+/* line 19, E:/telenor/DT/src/assets/src/font-awesome/_fa-brands.scss */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
@@ -2997,11 +3961,13 @@ readers do not read off random characters that represent icons */
   src: url("../fonts/font-awesome/fa-solid-900.eot");
   src: url("../fonts/font-awesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/font-awesome/fa-solid-900.woff2") format("woff2"), url("../fonts/font-awesome/fa-solid-900.woff") format("woff"), url("../fonts/font-awesome/fa-solid-900.ttf") format("truetype"), url("../fonts/font-awesome/fa-solid-900.svg#fontawesome") format("svg"); }
 
+/* line 19, E:/telenor/DT/src/assets/src/font-awesome/_fa-solid.scss */
 .fa,
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
 
+/* line 6, E:/telenor/DT/src/assets/src/app.scss */
 .preloader-it {
   background: #fff;
   position: fixed;
@@ -3010,47 +3976,63 @@ readers do not read off random characters that represent icons */
   width: 100%;
   overflow: hidden; }
 
+/* line 15, E:/telenor/DT/src/assets/src/app.scss */
 .wrapper {
   width: 100%;
   height: 100%;
   display: table;
   height: 100%; }
+  /* line 21, E:/telenor/DT/src/assets/src/app.scss */
   .wrapper > div {
     width: 100%;
     display: table;
     table-layout: fixed;
     height: 100vh; }
 
+/* line 30, E:/telenor/DT/src/assets/src/app.scss */
 .slide-nav-toggle #main {
   margin-left: 50px; }
 
+/* line 32, E:/telenor/DT/src/assets/src/app.scss */
 .slide-nav-toggle .fixed-sidebar-left {
   width: 50px; }
+  /* line 36, E:/telenor/DT/src/assets/src/app.scss */
   .slide-nav-toggle .fixed-sidebar-left .side-nav li.navigation-header > span {
     display: none; }
+  /* line 37, E:/telenor/DT/src/assets/src/app.scss */
   .slide-nav-toggle .fixed-sidebar-left .side-nav li.navigation-header > i {
     display: block; }
+  /* line 41, E:/telenor/DT/src/assets/src/app.scss */
   .slide-nav-toggle .fixed-sidebar-left .collapse.in {
     display: none; }
+  /* line 43, E:/telenor/DT/src/assets/src/app.scss */
   .slide-nav-toggle .fixed-sidebar-left:hover {
     width: 200px; }
+    /* line 46, E:/telenor/DT/src/assets/src/app.scss */
     .slide-nav-toggle .fixed-sidebar-left:hover .side-nav li.navigation-header > span {
       display: block; }
+    /* line 47, E:/telenor/DT/src/assets/src/app.scss */
     .slide-nav-toggle .fixed-sidebar-left:hover .side-nav li.navigation-header > i {
       display: none; }
+    /* line 48, E:/telenor/DT/src/assets/src/app.scss */
     .slide-nav-toggle .fixed-sidebar-left:hover .collapse.in {
       display: block; }
+    /* line 49, E:/telenor/DT/src/assets/src/app.scss */
     .slide-nav-toggle .fixed-sidebar-left:hover .right-nav-text {
       opacity: 1; }
+  /* line 51, E:/telenor/DT/src/assets/src/app.scss */
   .slide-nav-toggle .fixed-sidebar-left .right-nav-text {
     opacity: 0; }
 
+/* line 55, E:/telenor/DT/src/assets/src/app.scss */
 .slide-nav-toggle.sidebar-hover .navbar.navbar-inverse.navbar-fixed-top {
   width: 200px; }
+  /* line 57, E:/telenor/DT/src/assets/src/app.scss */
   .slide-nav-toggle.sidebar-hover .navbar.navbar-inverse.navbar-fixed-top .logo-wrap .brand-text {
     opacity: 1;
     visibility: visible; }
 
+/* line 65, E:/telenor/DT/src/assets/src/app.scss */
 #main {
   padding-top: 66px;
   margin-left: 200px;
@@ -3059,70 +4041,87 @@ readers do not read off random characters that represent icons */
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
   left: 0; }
+  /* line 74, E:/telenor/DT/src/assets/src/app.scss */
   #main .main-wrapper {
     background-color: #f2f4f7;
     border-top: 1px solid #e8e9ea; }
+    /* line 78, E:/telenor/DT/src/assets/src/app.scss */
     #main .main-wrapper h1 {
       font-family: 'Open Sans', sans-serif;
       font-size: 20px;
       color: black; }
+  /* line 84, E:/telenor/DT/src/assets/src/app.scss */
   #main .main-content {
     width: 100%; }
 
+/* line 89, E:/telenor/DT/src/assets/src/app.scss */
 .content-white {
   padding: 30px 15px;
   background-color: white;
   margin-bottom: 40px;
   border: 1px solid #e8e9eb; }
 
+/* line 96, E:/telenor/DT/src/assets/src/app.scss */
 .listener-tile {
   border: 1px solid #d5d5d5;
   background-color: white; }
+  /* line 98, E:/telenor/DT/src/assets/src/app.scss */
   .listener-tile h2 {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: black;
     margin: 0; }
+  /* line 105, E:/telenor/DT/src/assets/src/app.scss */
   .listener-tile .title {
     border-bottom: 1px solid #d5d5d5;
     padding: 10px 15px; }
+    /* line 108, E:/telenor/DT/src/assets/src/app.scss */
     .listener-tile .title i {
       color: #5c3dee; }
+  /* line 110, E:/telenor/DT/src/assets/src/app.scss */
   .listener-tile .value {
     display: block;
     padding: 10px 15px;
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 30px; }
+  /* line 118, E:/telenor/DT/src/assets/src/app.scss */
   .listener-tile.performance-card .title h2 {
     padding-right: 20px;
     position: relative;
     font-weight: bold; }
+    /* line 122, E:/telenor/DT/src/assets/src/app.scss */
     .listener-tile.performance-card .title h2 i {
       position: absolute;
       right: 0;
       top: 2px;
       color: #b2b2b2;
       z-index: 11; }
+  /* line 130, E:/telenor/DT/src/assets/src/app.scss */
   .listener-tile.performance-card .value,
   .listener-tile.performance-card .range {
     display: inline-block; }
 
+/* line 136, E:/telenor/DT/src/assets/src/app.scss */
 .tagline,
 .performance-graph {
   text-align: center;
   padding: 15px;
   display: block; }
 
+/* line 143, E:/telenor/DT/src/assets/src/app.scss */
 .range {
   display: block;
   padding: 15px 15px;
   padding-top: 0; }
+  /* line 147, E:/telenor/DT/src/assets/src/app.scss */
   .range.sucess {
     color: #5cb85c; }
+  /* line 148, E:/telenor/DT/src/assets/src/app.scss */
   .range.danger {
     color: #d9534f; }
 
+/* line 151, E:/telenor/DT/src/assets/src/app.scss */
 .la-anim-1 {
   position: fixed;
   top: 0;
@@ -3133,6 +4132,7 @@ readers do not read off random characters that represent icons */
   -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   pointer-events: none; }
+  /* line 162, E:/telenor/DT/src/assets/src/app.scss */
   .la-anim-1:after {
     position: absolute;
     top: 0;
@@ -3151,6 +4151,7 @@ readers do not read off random characters that represent icons */
     -o-transform: rotate(2deg) translateY(-2px);
     transform: rotate(2deg) translateY(-2px); }
 
+/* line 184, E:/telenor/DT/src/assets/src/app.scss */
 .la-anim-1.la-animate {
   z-index: 10001;
   background: #212121;
@@ -3163,12 +4164,15 @@ readers do not read off random characters that represent icons */
   -ms-transform: translate3d(0%, 0, 0);
   -o-transform: translate3d(0%, 0, 0);
   transform: translate3d(0%, 0, 0); }
+  /* line 197, E:/telenor/DT/src/assets/src/app.scss */
   .la-anim-1.la-animate:after {
     opacity: 1; }
 
+/* line 203, E:/telenor/DT/src/assets/src/app.scss */
 .navbar.main-nav {
   border-style: none; }
 
+/* line 205, E:/telenor/DT/src/assets/src/app.scss */
 .navbar.navbar-fixed-top {
   margin-bottom: 0;
   border-bottom: 1px solid #e8e9ea;
@@ -3176,6 +4180,7 @@ readers do not read off random characters that represent icons */
   min-height: 66px;
   padding: 0 15px 0 0;
   position: fixed; }
+  /* line 213, E:/telenor/DT/src/assets/src/app.scss */
   .navbar.navbar-fixed-top .nav-header {
     background: #242424;
     width: 200px;
@@ -3186,12 +4191,15 @@ readers do not read off random characters that represent icons */
     transition: 0.4s ease;
     overflow: hidden;
     border-bottom: 1px solid #323232; }
+    /* line 224, E:/telenor/DT/src/assets/src/app.scss */
     .navbar.navbar-fixed-top .nav-header .logo-wrap {
       padding-top: 19px; }
+  /* line 228, E:/telenor/DT/src/assets/src/app.scss */
   .navbar.navbar-fixed-top .top-nav > li {
     display: inline-block;
     float: left;
     padding-left: 20px; }
+    /* line 233, E:/telenor/DT/src/assets/src/app.scss */
     .navbar.navbar-fixed-top .top-nav > li > a {
       color: #878787;
       background: transparent !important;
@@ -3202,6 +4210,7 @@ readers do not read off random characters that represent icons */
       line-height: 66px;
       position: relative;
       display: block; }
+      /* line 244, E:/telenor/DT/src/assets/src/app.scss */
       .navbar.navbar-fixed-top .top-nav > li > a .top-nav-icon-badge {
         background: #ca3321;
         border-radius: 50%;
@@ -3214,65 +4223,80 @@ readers do not read off random characters that represent icons */
         text-align: center;
         top: 16px;
         width: 20px; }
+      /* line 258, E:/telenor/DT/src/assets/src/app.scss */
       .navbar.navbar-fixed-top .top-nav > li > a i.top-nav-icon {
         font-size: 24px;
         vertical-align: middle;
         color: #4c3eff; }
 
+/* line 268, E:/telenor/DT/src/assets/src/app.scss */
 .navbar .dropdown-menu.alert-dropdown {
   width: 400px;
   left: auto;
   right: 0; }
 
+/* line 276, E:/telenor/DT/src/assets/src/app.scss */
 .logo-wrap a {
   display: inline-block;
   width: 95px;
   height: 35px; }
+  /* line 281, E:/telenor/DT/src/assets/src/app.scss */
   .logo-wrap a img {
     width: 100%; }
 
+/* line 286, E:/telenor/DT/src/assets/src/app.scss */
 a.toggle-left-nav-btn {
   color: #878787;
   position: relative;
   line-height: 66px; }
+  /* line 291, E:/telenor/DT/src/assets/src/app.scss */
   a.toggle-left-nav-btn i {
     font-family: 'Font Awesome 5 Free';
     font-size: 21px;
     vertical-align: middle; }
 
+/* line 298, E:/telenor/DT/src/assets/src/app.scss */
 .ml-20 {
   margin-left: 20px !important; }
 
+/* line 299, E:/telenor/DT/src/assets/src/app.scss */
 .ma-0 {
   margin: 0px !important; }
 
+/* line 301, E:/telenor/DT/src/assets/src/app.scss */
 hr.light-grey-hr {
   border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
+/* line 303, E:/telenor/DT/src/assets/src/app.scss */
 .txt-danger,
 .text-danger {
   color: #d9534f !important; }
 
+/* line 306, E:/telenor/DT/src/assets/src/app.scss */
 .bg-green,
 .bg-success {
   background: #4aa23c !important; }
 
+/* line 311, E:/telenor/DT/src/assets/src/app.scss */
 .notification-box-head-wrap .notification-box-head {
   font-size: 16px;
   color: #fff;
   display: block;
   text-transform: capitalize;
   padding: 7px 15px 10px; }
+  /* line 318, E:/telenor/DT/src/assets/src/app.scss */
   .notification-box-head-wrap .notification-box-head .clear-notifications {
     padding: 12px 15px 10px;
     text-transform: uppercase;
     font-size: 11px; }
 
+/* line 326, E:/telenor/DT/src/assets/src/app.scss */
 .clearfix {
   overflow: hidden;
   clear: both;
   float: none; }
 
+/* line 333, E:/telenor/DT/src/assets/src/app.scss */
 .streamline .sl-item {
   margin-left: 0;
   border-left: none;
@@ -3280,38 +4304,47 @@ hr.light-grey-hr {
   -webkit-transition: 0.2s ease;
   -moz-transition: 0.2s ease;
   transition: 0.2s ease; }
+  /* line 341, E:/telenor/DT/src/assets/src/app.scss */
   .streamline .sl-item > a {
     display: block; }
+  /* line 343, E:/telenor/DT/src/assets/src/app.scss */
   .streamline .sl-item .sl-content {
     margin-left: 60px; }
+    /* line 346, E:/telenor/DT/src/assets/src/app.scss */
     .streamline .sl-item .sl-content .head-notifications {
       width: 230px;
       font-size: 13px;
       font-weight: 500; }
+    /* line 352, E:/telenor/DT/src/assets/src/app.scss */
     .streamline .sl-item .sl-content .notifications-time {
       color: #878787; }
+    /* line 354, E:/telenor/DT/src/assets/src/app.scss */
     .streamline .sl-item .sl-content > p {
       font-size: 13px;
       color: #878787; }
 
+/* line 361, E:/telenor/DT/src/assets/src/app.scss */
 .streamline .icon {
   height: 44px;
   position: absolute;
   text-align: center;
   width: 44px;
   display: table; }
+  /* line 368, E:/telenor/DT/src/assets/src/app.scss */
   .streamline .icon i {
     font-size: 24px;
     vertical-align: middle;
     display: table-cell;
     color: #fff; }
 
+/* line 377, E:/telenor/DT/src/assets/src/app.scss */
 .sl-item {
   position: relative;
   padding-bottom: 18px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   margin-left: 15px; }
 
+/* line 384, E:/telenor/DT/src/assets/src/app.scss */
 .truncate {
   display: inline-block;
   max-width: 100%;
@@ -3319,6 +4352,7 @@ hr.light-grey-hr {
   text-overflow: ellipsis;
   white-space: nowrap; }
 
+/* line 392, E:/telenor/DT/src/assets/src/app.scss */
 .fixed-sidebar-left {
   position: fixed;
   top: 66px;
@@ -3332,6 +4366,7 @@ hr.light-grey-hr {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
   background-color: #242424; }
+  /* line 406, E:/telenor/DT/src/assets/src/app.scss */
   .fixed-sidebar-left .side-nav {
     border: none;
     width: 100%;
@@ -3340,72 +4375,94 @@ hr.light-grey-hr {
     border-radius: 0;
     margin: 0;
     overflow-y: auto; }
+    /* line 416, E:/telenor/DT/src/assets/src/app.scss */
     .fixed-sidebar-left .side-nav li {
       width: 200px;
       padding: 3px 12px; }
+      /* line 420, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li.navigation-header {
         margin-top: 10px; }
+      /* line 422, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li > a {
         color: #fff;
         padding: 4px 15px;
         border-radius: 4px; }
+        /* line 427, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li > a:hover, .fixed-sidebar-left .side-nav li > a:focus {
           background-color: #5c3dee;
           color: #fff; }
+          /* line 432, E:/telenor/DT/src/assets/src/app.scss */
           .fixed-sidebar-left .side-nav li > a:hover i, .fixed-sidebar-left .side-nav li > a:focus i {
             color: white !important; }
+        /* line 435, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li > a.active {
           background-color: #5c3dee; }
+          /* line 438, E:/telenor/DT/src/assets/src/app.scss */
           .fixed-sidebar-left .side-nav li > a.active i {
             color: white !important; }
+      /* line 444, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li > ul > li {
         width: 100%; }
+        /* line 447, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li > ul > li a {
           display: block;
           color: #878787;
           border-radius: 4px; }
+          /* line 452, E:/telenor/DT/src/assets/src/app.scss */
           .fixed-sidebar-left .side-nav li > ul > li a:hover, .fixed-sidebar-left .side-nav li > ul > li a:active, .fixed-sidebar-left .side-nav li > ul > li a:focus {
             text-decoration: none;
             color: white;
             background-color: rgba(255, 255, 255, 0.05); }
+        /* line 461, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li > ul > li .collapse li a.active {
           color: #212121; }
+        /* line 464, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li > ul > li > ul > li a {
           padding-left: 62px;
           color: #878787; }
+      /* line 474, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li.navigation-header > span,
       .fixed-sidebar-left .side-nav li.navigation-header > i {
         padding: 11px 15px; }
+      /* line 477, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li.navigation-header > span {
         font-size: 11px;
         display: block;
         text-transform: uppercase;
         font-weight: 500;
         color: #878787; }
+      /* line 485, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li.navigation-header > i {
         display: none;
         font-size: 16px; }
+      /* line 491, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li a {
         width: 100%;
         text-transform: capitalize;
         -webkit-transition: 0.3s ease;
         -moz-transition: 0.3s ease;
         transition: 0.3s ease; }
+        /* line 498, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li a .pull-left > i {
           font-size: 14px;
           color: #b4b4b4;
           padding-right: 7px;
           width: 20px;
           height: 20px; }
+        /* line 505, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li a.active-page {
           background: rgba(33, 33, 33, 0.05); }
+      /* line 508, E:/telenor/DT/src/assets/src/app.scss */
       .fixed-sidebar-left .side-nav li a[aria-expanded="true"] {
         background: rgba(105, 88, 88, 0.05); }
+        /* line 511, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li a[aria-expanded="true"] > i {
           color: #e2724c; }
+        /* line 513, E:/telenor/DT/src/assets/src/app.scss */
         .fixed-sidebar-left .side-nav li a[aria-expanded="true"] .pull-right i:before {
           content: '\f2f8'; }
 
+/* line 519, E:/telenor/DT/src/assets/src/app.scss */
 .progress {
   overflow: initial;
   height: 6px;
@@ -3413,6 +4470,7 @@ hr.light-grey-hr {
   border-radius: 45px;
   background-color: #3d3d3d;
   margin: 0 15px; }
+  /* line 528, E:/telenor/DT/src/assets/src/app.scss */
   .progress .progress-bar {
     background-color: #734dfc;
     height: 10px;
@@ -3420,66 +4478,83 @@ hr.light-grey-hr {
     position: absolute;
     top: -2px; }
 
+/* line 537, E:/telenor/DT/src/assets/src/app.scss */
 .progress-details {
   font-size: 11px;
   float: right;
   padding-right: 15px;
   padding-top: 7px; }
 
+/* line 544, E:/telenor/DT/src/assets/src/app.scss */
 .users {
   float: right;
   text-align: right;
   padding: 10px 15px 5px 0; }
+  /* line 549, E:/telenor/DT/src/assets/src/app.scss */
   .users .title {
     display: block;
     font-size: 12px; }
+  /* line 554, E:/telenor/DT/src/assets/src/app.scss */
   .users .user-count {
     color: white; }
+  /* line 557, E:/telenor/DT/src/assets/src/app.scss */
   .users .sync a {
     color: #878787; }
+    /* line 560, E:/telenor/DT/src/assets/src/app.scss */
     .users .sync a:hover, .users .sync a:active, .users .sync a:focus {
       text-decoration: none; }
 
+/* line 571, E:/telenor/DT/src/assets/src/app.scss */
 .profile.dropdown .dropdown-toggle {
   color: black !important; }
 
+/* line 573, E:/telenor/DT/src/assets/src/app.scss */
 .profile.dropdown i {
   color: black; }
 
+/* line 577, E:/telenor/DT/src/assets/src/app.scss */
 #footer {
   display: table-footer-group;
   height: 1%;
   text-align: center;
   background: #fff; }
+  /* line 583, E:/telenor/DT/src/assets/src/app.scss */
   #footer .footer-wrapper {
     height: 100%;
     padding-top: 15px;
     margin-left: 200px; }
 
+/* line 590, E:/telenor/DT/src/assets/src/app.scss */
 .total-listener-graph {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+/* line 594, E:/telenor/DT/src/assets/src/app.scss */
 .heading {
   padding: 15px 0; }
+  /* line 597, E:/telenor/DT/src/assets/src/app.scss */
   .heading h1 {
     margin: 0;
     padding: 0; }
 
+/* line 607, E:/telenor/DT/src/assets/src/app.scss */
 .section-item {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #cbcbcb;
   border-bottom: none; }
+  /* line 612, E:/telenor/DT/src/assets/src/app.scss */
   .section-item .section-item-header {
     border-bottom: 1px solid #cbcbcb;
     padding: 20px 15px; }
+    /* line 615, E:/telenor/DT/src/assets/src/app.scss */
     .section-item .section-item-header .value {
       color: black;
       font-family: 'Open Sans', sans-serif;
       font-size: 20px;
       display: block;
       text-align: right; }
+    /* line 622, E:/telenor/DT/src/assets/src/app.scss */
     .section-item .section-item-header .title {
       display: block;
       color: #4d4d4d;
@@ -3487,6 +4562,7 @@ hr.light-grey-hr {
       font-size: 16px;
       display: block;
       text-align: right; }
+  /* line 632, E:/telenor/DT/src/assets/src/app.scss */
   .section-item .section-content .heading {
     border-bottom: 1px solid #cbcbcb;
     padding: 15px;
@@ -3495,18 +4571,23 @@ hr.light-grey-hr {
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px; }
+  /* line 643, E:/telenor/DT/src/assets/src/app.scss */
   .section-item .section-list li {
     padding: 15px;
     border-bottom: 1px solid #cbcbcb;
     height: 50px; }
+  /* line 648, E:/telenor/DT/src/assets/src/app.scss */
   .section-item .section-list a {
     color: black;
     display: block; }
+    /* line 651, E:/telenor/DT/src/assets/src/app.scss */
     .section-item .section-list a:hover, .section-item .section-list a:active, .section-item .section-list a:focus {
       text-decoration: none; }
+  /* line 657, E:/telenor/DT/src/assets/src/app.scss */
   .section-item .section-list:last-child {
     border-style: none; }
 
+/* line 663, E:/telenor/DT/src/assets/src/app.scss */
 .order {
   background-color: #eeebfd;
   padding: 8px 10px;
@@ -3515,41 +4596,53 @@ hr.light-grey-hr {
   margin-right: 10px;
   display: inline-block; }
 
+/* line 674, E:/telenor/DT/src/assets/src/app.scss */
 .title h2 i {
   margin-right: 5px; }
 
+/* line 678, E:/telenor/DT/src/assets/src/app.scss */
 .stat-section {
   padding: 45px 15px 25px; }
+  /* line 680, E:/telenor/DT/src/assets/src/app.scss */
   .stat-section .inline-stats {
     margin-right: 15px;
     display: inline-block; }
+  /* line 685, E:/telenor/DT/src/assets/src/app.scss */
   .stat-section .stats-wrapper {
     padding: 6px 12px;
     display: inline-block;
     border: 1px solid transparent;
     font-family: 'Open Sans', sans-serif; }
+    /* line 690, E:/telenor/DT/src/assets/src/app.scss */
     .stat-section .stats-wrapper.bordered {
       border: 1px solid #d5d5d5; }
+      /* line 693, E:/telenor/DT/src/assets/src/app.scss */
       .stat-section .stats-wrapper.bordered .value {
         color: #636363; }
+    /* line 696, E:/telenor/DT/src/assets/src/app.scss */
     .stat-section .stats-wrapper .range {
       display: inline-block;
       padding: 0; }
+    /* line 701, E:/telenor/DT/src/assets/src/app.scss */
     .stat-section .stats-wrapper .value {
       font-weight: bold;
       color: #000000;
       font-size: 30px;
       display: inline-block; }
+    /* line 708, E:/telenor/DT/src/assets/src/app.scss */
     .stat-section .stats-wrapper .title {
       text-transform: uppercase;
       font-size: 14px;
       display: block; }
+    /* line 714, E:/telenor/DT/src/assets/src/app.scss */
     .stat-section .stats-wrapper:last-child {
       margin-right: 0; }
 
+/* line 717, E:/telenor/DT/src/assets/src/app.scss */
 .tabs-area {
   padding-left: 15px;
   padding-right: 15px; }
+  /* line 723, E:/telenor/DT/src/assets/src/app.scss */
   .tabs-area .nav.nav-pills li {
     margin: 0 30px;
     padding: 10px 20px;
@@ -3559,44 +4652,60 @@ hr.light-grey-hr {
     font-size: 20px;
     text-transform: uppercase;
     border-bottom: 3px solid transparent; }
+    /* line 732, E:/telenor/DT/src/assets/src/app.scss */
     .tabs-area .nav.nav-pills li.react-tabs__tab--selected {
       background: #f5f3fe;
       border-bottom: 3px solid #0247fc; }
 
+/* line 741, E:/telenor/DT/src/assets/src/app.scss */
 .tablular-data-wrapper {
   padding: 30px 0; }
+  /* line 744, E:/telenor/DT/src/assets/src/app.scss */
   .tablular-data-wrapper .range {
     padding: 0;
     display: inline-block; }
+  /* line 749, E:/telenor/DT/src/assets/src/app.scss */
   .tablular-data-wrapper .table {
     margin: 0;
     border: 1px solid #e4e4e4; }
+    /* line 753, E:/telenor/DT/src/assets/src/app.scss */
     .tablular-data-wrapper .table > thead > tr > th {
       padding: 8px; }
+    /* line 755, E:/telenor/DT/src/assets/src/app.scss */
     .tablular-data-wrapper .table > tbody > tr > td {
       vertical-align: middle; }
+    /* line 758, E:/telenor/DT/src/assets/src/app.scss */
     .tablular-data-wrapper .table.table-bordered > thead > tr > th {
       border-bottom-width: 1px; }
+    /* line 762, E:/telenor/DT/src/assets/src/app.scss */
     .tablular-data-wrapper .table.table-with-borderless-header.table-bordered {
       margin-bottom: 20px;
       border: none; }
+      /* line 765, E:/telenor/DT/src/assets/src/app.scss */
       .tablular-data-wrapper .table.table-with-borderless-header.table-bordered > thead > tr > th {
         border: none; }
 
+/* line 771, E:/telenor/DT/src/assets/src/app.scss */
 .table-footer {
   padding: 8px;
   background: #eeebfd;
   color: #0247fc;
   font-size: 16px; }
+  /* line 778, E:/telenor/DT/src/assets/src/app.scss */
   .table-footer.more-categories a {
     text-align: center;
     display: block;
     font-size: 14px;
     border: 1px solid #e4e4e4; }
+    /* line 784, E:/telenor/DT/src/assets/src/app.scss */
     .table-footer.more-categories a i {
       margin-left: 10px; }
+    /* line 786, E:/telenor/DT/src/assets/src/app.scss */
     .table-footer.more-categories a:hover {
       text-decoration: none; }
 
+/* line 792, E:/telenor/DT/src/assets/src/app.scss */
 .dropdown-menu {
   padding: 0; }
+
+/*# sourceMappingURL=../css/app.map */
