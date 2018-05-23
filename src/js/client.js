@@ -10,6 +10,7 @@ import Performance from './components/containers/Performance';
 import Revenue from './components/containers/Revenue';
 import Categories from './components/containers/Categories';
 import Program from './components/containers/Program';
+import ProgramDetail from './components/containers/ProgramDetail';
 import Episodes from './components/containers/Episodes';
 
 import AgeGender from './components/containers/AgeGender';
@@ -34,7 +35,10 @@ ReactDOM.render(
       <Route path="performance" component={Performance}></Route>
       <Route path="revenue" component={Revenue}></Route>
       <Route path="categories" component={Categories}></Route>
-      <Route path="program" component={Program}></Route>
+      <Route path="program" component={Program}>
+      
+      </Route>
+      <Route path="program/details" component={ProgramDetail}></Route>
       <Route path="episodes" component={Episodes}></Route>
       <Route path="ageGender" component={AgeGender}></Route>
       <Route path="location" component={Location}></Route>
