@@ -17,9 +17,9 @@ export default class NameListItem extends React.Component {
   }
   getRiseAndFall(rise) {
     if (rise) {
-      return <span className="range sucess"><i className="fas fa-arrow-up"></i></span>;
+      return <span className="range sucess"><i className="fas fa-caret-up"></i></span>;
     } else {
-      return <span className="range danger"><i className="fas fa-arrow-down"></i></span>;
+      return <span className="range danger"><i className="fas fa-caret-down"></i></span>;
     }
   }
 
