@@ -110,16 +110,14 @@ render() {
     <div>
     	<section class="content-white">
     	<div className="stat-section clearfix">
-
-      <div className="filter-area">
-        <div className="col-md-6">
-          <input type="text" class="form-control"  placeholder="Search" />
-        </div>
-        <div className="col-md-offset-4 col-md-2 text-right">
+        <div className="filter-area">
+          <div className="col-md-6">
+          <input type="text" class="form-control"  placeholder="Search episodes here" />
+          </div>
+          <div className="col-md-offset-4 col-md-2 text-right">
           <button class="btn btn-primary" type="submit"><i class="fas fa-download"></i> Download Report</button>
+          </div>
         </div>
-      </div>
-
         <div className="tablular-data-wrapper clearfix">
             <div className="col-md-12">
                 <table className="table table-bordered table-striped">
@@ -139,7 +137,7 @@ render() {
                             <TotalListItem total={item.totalListener} rise={item.listenerRise}
                                            percentValue={item.listenersPercent}/>
                             <TotalListItem total={item.totalMinutes} rise={item.minutesRise} percentValue={item.minutesPercent}/>
-                            <td><Link to="program/details"> View More</Link></td>
+                            <td><Link to="program/details"> View More <i class="fas fa-angle-right"></i></Link></td>
                         </tr>
                       )
                     })
@@ -148,9 +146,7 @@ render() {
                 </table>
             </div>
         </div>
-		
-      </div>
-
+		</div>
     </section>
     </div>
 
