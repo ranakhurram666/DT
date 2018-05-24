@@ -14,12 +14,14 @@ import ProgramDetail from './components/containers/ProgramDetail';
 import Episodes from './components/containers/Episodes';
 
 import AgeGender from './components/containers/AgeGender';
+import AgeGenderDetail from './components/containers/AgeGenderDetail';
 import Location from './components/containers/Location';
 
 import Newuploads from './components/containers/Newuploads';
+import EpisodesDetails from './components/containers/EpisodesDetails';
+
 import MyLibrary from './components/containers/MyLibrary';
 import CategoryDetail from './components/containers/CategoryDetail';
-
 import store from "./store"
 
 const app = document.getElementById('app')
@@ -41,9 +43,10 @@ ReactDOM.render(
       <Route path="program/details" component={ProgramDetail}></Route>
       <Route path="episodes" component={Episodes}></Route>
       <Route path="ageGender" component={AgeGender}></Route>
+      <Route path="ageGender/details" component={AgeGenderDetail}></Route>
       <Route path="location" component={Location}></Route>
-      
       <Route path="newuploads" component={Newuploads}></Route>
+      <Route path="episodes/details" component={EpisodesDetails}></Route>
       <Route path="mylibrary" component={MyLibrary}></Route>
 
     </Route>

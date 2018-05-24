@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import TotalListItem from '../list-items/TotalListItem';
 import NameListItem from '../list-items/NameListItem';
+import { Link } from 'react-router';
 /*
 @connect((store) => {
 return {
@@ -85,7 +86,9 @@ render() {
                             <TotalListItem total={item.totalListener} rise={item.listenerRise}
                                            percentValue={item.listenersPercent}/>
                             <TotalListItem total={item.totalMinutes} rise={item.minutesRise} percentValue={item.minutesPercent}/>
-                            <td><a href="#"> View More</a></td>
+                            <td>
+                            <Link to="episodes/details"> View More</Link>
+                            </td>
                         </tr>
                       )
                     })
@@ -96,7 +99,6 @@ render() {
         </div>
     </section>
     </div>
-
     );
 }
 }
