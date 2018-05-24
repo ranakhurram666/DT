@@ -14,6 +14,7 @@ import ProgramDetail from './components/containers/ProgramDetail';
 import Episodes from './components/containers/Episodes';
 
 import AgeGender from './components/containers/AgeGender';
+import AgeGenderDetail from './components/containers/AgeGenderDetail';
 import Location from './components/containers/Location';
 
 import Newuploads from './components/containers/Newuploads';
@@ -42,6 +43,7 @@ ReactDOM.render(
       <Route path="program/details" component={ProgramDetail}></Route>
       <Route path="episodes" component={Episodes}></Route>
       <Route path="ageGender" component={AgeGender}></Route>
+      <Route path="ageGender/details" component={AgeGenderDetail}></Route>
       <Route path="location" component={Location}></Route>
       <Route path="newuploads" component={Newuploads}></Route>
       <Route path="episodes/details" component={EpisodesDetails}></Route>
