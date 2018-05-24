@@ -16,6 +16,7 @@ import Episodes from './components/containers/Episodes';
 import AgeGender from './components/containers/AgeGender';
 import AgeGenderDetail from './components/containers/AgeGenderDetail';
 import Location from './components/containers/Location';
+import LocationListening from './components/containers/LocationListening';
 
 import Newuploads from './components/containers/Newuploads';
 import EpisodesDetails from './components/containers/EpisodesDetails';
@@ -45,6 +46,7 @@ ReactDOM.render(
       <Route path="ageGender" component={AgeGender}></Route>
       <Route path="ageGender/details" component={AgeGenderDetail}></Route>
       <Route path="location" component={Location}></Route>
+      <Route path="location/listening" component={LocationListening}></Route>
       <Route path="newuploads" component={Newuploads}></Route>
       <Route path="episodes/details" component={EpisodesDetails}></Route>
       <Route path="mylibrary" component={MyLibrary}></Route>
