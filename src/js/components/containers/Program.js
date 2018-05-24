@@ -149,7 +149,6 @@ render() {
 		</div>
     </section>
     </div>
-
     );
-}
+  }
 }
