@@ -110,8 +110,16 @@ render() {
     <div>
     	<section class="content-white">
     	<div className="stat-section clearfix">
-        <input type="Text" value="Search" />
-        <button type="button" className="btn btn-primary">Download Report</button>
+
+      <div className="filter-area">
+        <div className="col-md-6">
+          <input type="text" class="form-control"  placeholder="Search" />
+        </div>
+        <div className="col-md-offset-4 col-md-2 text-right">
+          <button class="btn btn-primary" type="submit"><i class="fas fa-download"></i> Download Report</button>
+        </div>
+      </div>
+
         <div className="tablular-data-wrapper clearfix">
             <div className="col-md-12">
                 <table className="table table-bordered table-striped">

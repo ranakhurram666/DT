@@ -1,5 +1,6 @@
 @import "app-variables";
 @import "app-mixins";
+@import "bootstrap";
 @import "fontawesome";
 
 
@@ -786,9 +787,12 @@ hr.light-grey-hr { border-top: 1px solid rgba(255, 255, 255, 0.1); }
         &:hover { text-decoration: none; }
       }
     }
-    
   }
 
-  .dropdown-menu {
-    padding: 0;
+  .dropdown-menu { padding: 0; }
+  
+  .search-input {
+    input[type='search'] {
+      @extend .form-control;
+    }
   }
